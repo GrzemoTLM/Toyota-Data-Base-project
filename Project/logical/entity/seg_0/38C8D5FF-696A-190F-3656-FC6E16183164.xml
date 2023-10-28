@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="52AE5D53-8430-C7F0-BA95-AA68F136EF44" name="Engine">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="38C8D5FF-696A-190F-3656-FC6E16183164" name="Engine parts">
 <createdBy>pawel</createdBy>
-<createdTime>2023-10-25 21:00:09 UTC</createdTime>
+<createdTime>2023-10-28 18:03:28 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
 <item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
