@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2E54E63A-7EE8-430F-E756-78335F9DB6A5" name="Order Details">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B405597F-9F0D-A4E1-5D00-645FD0818500" name="Suspension Parts">
 <createdBy>pawel</createdBy>
-<createdTime>2023-10-25 20:12:08 UTC</createdTime>
+<createdTime>2023-10-28 18:03:40 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
 <item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
