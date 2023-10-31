@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7DAD81E8-8FB6-7DD9-3D12-2E797509D1AD" name="lk">
-<createdBy>pawel</createdBy>
-<createdTime>2023-10-31 13:23:31 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0E813922-F8B0-3785-D613-640ABBF1549C" name="Stash details">
+<createdBy>Dominika</createdBy>
+<createdTime>2023-10-31 18:14:27 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
 <item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
