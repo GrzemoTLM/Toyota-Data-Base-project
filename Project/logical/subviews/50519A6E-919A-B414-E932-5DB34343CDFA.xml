@@ -155,7 +155,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="DE009C91-18C4-B621-47C2-0587C0BAD376" otype="Entity" vid="DCDD85FE-B058-18E4-7711-9E1D27D20F77">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1527" y="22" width="170" height="110"/>
+<bounds x="1523" y="31" width="170" height="110"/>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-5971457</backgroundColor>
 <foregroundColor>-16776961</foregroundColor>
@@ -210,9 +210,9 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1527" y="47"/>
-<point x="1348" y="47"/>
-<point x="1348" y="439"/>
+<point x="1523" y="56"/>
+<point x="1346" y="56"/>
+<point x="1346" y="439"/>
 <point x="1195" y="439"/>
 </points>
 </Connector>
@@ -299,9 +299,9 @@
 <lineWidth>1</lineWidth>
 <points>
 <point x="1616" y="283"/>
-<point x="1616" y="207"/>
-<point x="1612" y="207"/>
-<point x="1612" y="132"/>
+<point x="1616" y="212"/>
+<point x="1608" y="212"/>
+<point x="1608" y="141"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="643F4E54-6249-20F4-3E0E-D037A1C34BC9" otype="Relation" vid_source="2AB4392A-36B6-163D-94A3-285158AF6B69" vid_target="A8FA18BE-BE2A-0476-6649-C69C9F5D42A9">
@@ -342,9 +342,9 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1527" y="67"/>
-<point x="1410" y="67"/>
-<point x="1410" y="245"/>
+<point x="1523" y="76"/>
+<point x="1408" y="76"/>
+<point x="1408" y="245"/>
 <point x="1294" y="245"/>
 </points>
 </Connector>
@@ -364,10 +364,10 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="633" y="460"/>
-<point x="1030" y="460"/>
-<point x="1030" y="107"/>
-<point x="1527" y="107"/>
+<point x="592" y="426"/>
+<point x="1007" y="426"/>
+<point x="1007" y="116"/>
+<point x="1523" y="116"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="AF03354D-240E-BE6D-D0F0-29CFD5EFD0E7" otype="Relation" vid_source="12265962-ACDB-D426-894C-218A6FA64FEB" vid_target="F9140833-E282-6B48-B2CE-8F75881D5EF1">
@@ -441,9 +441,9 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1527" y="87"/>
-<point x="1286" y="87"/>
-<point x="1286" y="83"/>
+<point x="1523" y="96"/>
+<point x="1284" y="96"/>
+<point x="1284" y="83"/>
 <point x="1056" y="83"/>
 </points>
 </Connector>
