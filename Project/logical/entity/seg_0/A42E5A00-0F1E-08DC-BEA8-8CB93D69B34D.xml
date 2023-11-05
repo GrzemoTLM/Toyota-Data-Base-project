@@ -14,4 +14,20 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CarID" id="5F8568FC-7305-8AF9-5C86-D0D44F848E6E">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-05 21:19:34 UTC</createdTime>
+<generatorID>B02CB3E6-2F0A-D315-B285-6A3A7BE7A1A5</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<referedAttribute>E0925F63-DDA5-8E30-C484-EA4430F6F283</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>

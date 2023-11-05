@@ -14,4 +14,46 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OrderID" id="5544F2C0-1EB3-AEFD-1714-1E966F0B1D0C">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-05 20:52:36 UTC</createdTime>
+<generatorID>F0525A14-090B-52EE-5D26-E87854A9BBBE</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<referedAttribute>CF996999-AB23-EB16-C1F8-65FC06E8734C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderDetailsID" id="8EF3C048-D174-4443-627A-B42C8E8A971F">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-05 21:14:09 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CB5F16FB-5E14-58F6-14A4-81F6CE8A10FA" name="Order Details PK">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-05 21:14:42 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8EF3C048-D174-4443-627A-B42C8E8A971F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

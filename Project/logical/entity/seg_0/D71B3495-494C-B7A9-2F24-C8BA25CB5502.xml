@@ -14,4 +14,61 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OrderID" id="CF996999-AB23-EB16-C1F8-65FC06E8734C">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-05 20:52:13 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StatusID" id="1CA4DE27-FE1C-254F-4E1F-768F2838A4AB">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-05 21:08:55 UTC</createdTime>
+<generatorID>164837F2-B077-0E28-3CEF-97C762443715</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>48EBD275-9013-F631-0C91-E8BA9A80B8DD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderDetailsID" id="75B020FA-CA0A-7150-E669-80260F051BC0">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-05 21:14:48 UTC</createdTime>
+<generatorID>F0525A14-090B-52EE-5D26-E87854A9BBBE</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<referedAttribute>8EF3C048-D174-4443-627A-B42C8E8A971F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C71A5089-694B-EE2E-3F01-DC8FAC0ED8EE" name="Order PK">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-05 20:52:18 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CF996999-AB23-EB16-C1F8-65FC06E8734C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

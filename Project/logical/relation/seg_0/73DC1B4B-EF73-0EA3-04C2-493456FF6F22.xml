@@ -8,11 +8,11 @@
 </engineerTo>
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>
-<optionalTarget>true</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>DE009C91-18C4-B621-47C2-0587C0BAD376</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>4EF25F6E-CF36-0C5D-2331-2EB5FFF86D23</targetEntity>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4EF25F6E-CF36-0C5D-2331-2EB5FFF86D23</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>DE009C91-18C4-B621-47C2-0587C0BAD376</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

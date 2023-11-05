@@ -14,4 +14,47 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CarID" id="E0925F63-DDA5-8E30-C484-EA4430F6F283">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-05 21:19:21 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderDetailsID" id="C65176B8-ABD7-6C35-523A-A2F3941C856B">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-05 21:14:48 UTC</createdTime>
+<generatorID>AF03354D-240E-BE6D-D0F0-29CFD5EFD0E7</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8EF3C048-D174-4443-627A-B42C8E8A971F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D38CB508-9CD4-8664-E806-E75D55E2FEAC" name="Car PK">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-05 21:19:32 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E0925F63-DDA5-8E30-C484-EA4430F6F283</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -14,4 +14,46 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ReciverTypeID" id="ACFD86D3-513E-7D08-39E5-099B38C1A23B">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-05 21:24:55 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PlaceTypeName" id="10D4E60E-31D2-CF50-234F-18DB97EBD2BE">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-05 21:25:57 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E83058F3-4EE8-3101-31C1-B28E44A291B5" name="Receiver type PK">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-05 21:25:06 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ACFD86D3-513E-7D08-39E5-099B38C1A23B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
