@@ -14,4 +14,71 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="LeaveID" id="B43D2BCB-4C48-5277-E843-0C69DFAA04C3">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 03:21:30 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmployeeID" id="452745EF-BC22-5D9F-8143-F1FAF54000F3">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 03:11:24 UTC</createdTime>
+<generatorID>B28A0DFB-9BA2-EC59-C23E-5E37C6FB5764</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>84841ACC-C3C7-F020-9125-67582757DDD5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Begin" id="54B431A0-50B8-C01E-7370-91F7F33E2D34">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 03:21:58 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="End" id="6FC1A16D-EC93-6951-C094-CF27C5495525">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 03:22:42 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="512D34F9-14B8-C42E-EE5B-E96D586006CE" name="Leave PK">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 03:21:53 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B43D2BCB-4C48-5277-E843-0C69DFAA04C3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

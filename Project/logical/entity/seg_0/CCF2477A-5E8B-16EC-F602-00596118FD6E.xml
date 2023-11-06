@@ -14,4 +14,87 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TrainingID" id="49220738-81D4-1A82-D34E-40570C8BDA59">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:04:19 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmployeeID" id="307DAE4A-A36B-FD68-6A9C-FED07E70AA79">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 03:11:24 UTC</createdTime>
+<generatorID>E63C2BD4-EC09-587E-52FC-E5A0AF540F32</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<referedAttribute>84841ACC-C3C7-F020-9125-67582757DDD5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CourseID" id="1F40A02D-2910-B871-EFF7-B9F2AF5F2C7B">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:03:54 UTC</createdTime>
+<generatorID>7A17F776-3FD0-B75E-61C8-94CD35437005</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>44ED514D-2BA0-04DB-AFB3-8F3166763D9F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Begin" id="167DBA51-165D-BB9D-BAFD-2D59167DC345">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:04:34 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="End" id="2E41D921-460F-7608-88F9-EC4D48457D42">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:04:45 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D8C203BE-2EDD-6B5B-4BAB-5B2EB62C85F1" name="Trainingv1 PK">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:04:32 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>49220738-81D4-1A82-D34E-40570C8BDA59</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

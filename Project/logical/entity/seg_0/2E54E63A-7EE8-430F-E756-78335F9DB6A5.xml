@@ -15,6 +15,18 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OrderRecordID" id="41295289-839B-72CE-1254-25894D45B65E">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 05:01:27 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="OrderID" id="3E4F2649-9F43-4201-F13D-9C5100339852">
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 01:13:30 UTC</createdTime>
@@ -29,5 +41,31 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Amount" id="60140246-1B5F-898B-19AF-BD7E66726042">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 05:10:52 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="975675AE-5C56-009B-B973-8CA1A40C1325" name="Order Details PK">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 05:01:50 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>41295289-839B-72CE-1254-25894D45B65E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

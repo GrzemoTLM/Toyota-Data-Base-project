@@ -14,4 +14,56 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="BodyID" id="811A4F5E-093A-E8E2-5EBC-15D5D74E0BCB">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 05:04:30 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BodyType" id="53E1CB52-A16E-CB7E-7F32-ADFBECE61AE7">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 05:04:49 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DoorsAmount" id="D56D8CE9-BED0-2616-C3D1-A189278532FB">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 05:05:37 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1DFAC52E-B129-94EC-1BE0-8D20D76E40F5" name="CarBody PK">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 05:04:43 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>811A4F5E-093A-E8E2-5EBC-15D5D74E0BCB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

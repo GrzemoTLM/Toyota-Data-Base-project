@@ -14,4 +14,60 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="GadgetID" id="D3EDFCF2-5A65-CC14-23BF-C872B3BE4332">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:56:03 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gadget" id="AC540CC2-0F75-63E1-C37D-0DCB9A981A4C">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:56:27 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ListRecord" id="D2BC30E7-1249-A8B1-D5FB-D25040F4BF52">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:58:26 UTC</createdTime>
+<generatorID>93F3DE03-29B0-333D-152D-4EC64D677E3E</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B448DA09-842D-A453-4BC0-1B0C02F28E54</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EAFCFE06-096F-9B7F-CE00-9C2C09A0893B" name="Gadgets PK">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:56:24 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D3EDFCF2-5A65-CC14-23BF-C872B3BE4332</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

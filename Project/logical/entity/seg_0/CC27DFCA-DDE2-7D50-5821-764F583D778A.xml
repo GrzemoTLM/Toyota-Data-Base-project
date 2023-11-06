@@ -14,4 +14,62 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PartID" id="401EE7C5-E00E-3081-24B6-356805B96CDF">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 05:11:33 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="InstytutionID" id="B366DCB5-FFEE-721F-3DF5-1DCDD7CA6EF6">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:05:45 UTC</createdTime>
+<generatorID>8925D8C7-8934-13EE-8F77-F75AA0E3D862</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CE2D1454-8B24-ABEF-E785-801E43ED8718</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderRecordID" id="2438DEC4-04E3-3E85-7649-A1123616FE83">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 05:01:51 UTC</createdTime>
+<generatorID>B7C99C76-625F-016B-551D-716F6E5BCF9C</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>41295289-839B-72CE-1254-25894D45B65E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6D463005-9E55-A7B0-EFE4-0C99E6F1F3E9" name="Part PK">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 05:11:45 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>401EE7C5-E00E-3081-24B6-356805B96CDF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

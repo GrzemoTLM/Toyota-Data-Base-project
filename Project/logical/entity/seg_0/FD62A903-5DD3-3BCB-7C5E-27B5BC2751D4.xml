@@ -14,4 +14,44 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PaymentMethodID" id="FE5E7C85-81EB-004B-FAAF-66A288F89D09">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 03:26:16 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MethodName" id="73069240-248A-7EA5-259A-DC8F44811988">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 03:26:38 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9EDDB524-3ED1-1A17-7B23-CF422F883BF8" name="Payment method PK">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 03:26:25 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FE5E7C85-81EB-004B-FAAF-66A288F89D09</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

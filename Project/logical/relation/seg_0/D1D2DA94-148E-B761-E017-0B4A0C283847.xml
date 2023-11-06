@@ -6,12 +6,14 @@
 <engineerTo>
 <item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
 </engineerTo>
+<sourcePk>50494E17-9A1D-A511-40A4-C2863B9B92DA</sourcePk>
+<targetPk>92839B31-8621-BF4B-0705-997121B33211</targetPk>
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>A1330B8E-22F7-2A29-9080-D4FB3F86CB10</sourceEntity>
-<targetCardinalityString>1</targetCardinalityString>
+<targetCardinalityString>*</targetCardinalityString>
 <targetEntity>9E0BE6C6-50B2-14D2-4229-DDA10B2408FF</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

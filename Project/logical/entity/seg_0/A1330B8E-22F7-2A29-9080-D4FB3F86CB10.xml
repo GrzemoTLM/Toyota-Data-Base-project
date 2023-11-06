@@ -14,4 +14,60 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SalaryID" id="70B28FA5-3400-AA45-5ACD-82C99A0D98B3">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 03:20:56 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Amount" id="1AA470D9-A4E8-EB6E-559F-CBF8EC94DF4F">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 03:21:09 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PaymentMethodID" id="CC960A99-9679-A451-1716-19ECA0465B53">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 03:26:33 UTC</createdTime>
+<generatorID>CE264D76-EE2E-7FD2-2BFE-D71CD28844EE</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FE5E7C85-81EB-004B-FAAF-66A288F89D09</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="50494E17-9A1D-A511-40A4-C2863B9B92DA" name="Salary PK">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 03:21:05 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>70B28FA5-3400-AA45-5ACD-82C99A0D98B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

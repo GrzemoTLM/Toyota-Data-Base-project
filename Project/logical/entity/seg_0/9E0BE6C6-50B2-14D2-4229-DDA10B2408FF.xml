@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9E0BE6C6-50B2-14D2-4229-DDA10B2408FF" name="Employer">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9E0BE6C6-50B2-14D2-4229-DDA10B2408FF" name="Employee">
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-04 16:09:24 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
@@ -14,4 +14,116 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EmployeeID" id="84841ACC-C3C7-F020-9125-67582757DDD5">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 03:11:07 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="864FF976-2B89-1EC9-905C-B4324D0316B1">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 03:11:37 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Surename" id="E9ADE092-FBC0-3DDE-2DAA-6C43F599C2FA">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 03:12:14 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ScheduleID" id="2E6E33C0-FC57-6C3A-2C54-9C86CA7134E8">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 03:16:32 UTC</createdTime>
+<generatorID>986BD231-00B7-CE39-DA13-C870B0714E1C</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<referedAttribute>F5B36F24-E42E-DF0F-9A5B-B80C064CB998</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PositionID" id="1B46A770-5E90-A4D7-2F7C-33C8EE477FB3">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 03:18:58 UTC</createdTime>
+<generatorID>81B1A7DF-ED3F-AFEE-B645-8186385D2B89</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6076E82D-C881-4AC2-780C-9FC4F84B4A60</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SalaryID" id="E7EF1718-AD4E-B6A1-A1B1-13CC593BFE97">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 03:21:07 UTC</createdTime>
+<generatorID>D1D2DA94-148E-B761-E017-0B4A0C283847</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<referedAttribute>70B28FA5-3400-AA45-5ACD-82C99A0D98B3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="InstytutionID" id="172EED80-C1A0-2D03-0F30-8B2741D09854">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:06:35 UTC</createdTime>
+<generatorID>AA897B87-70B5-B6BF-CF0B-37FE8EF242E1</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CE2D1454-8B24-ABEF-E785-801E43ED8718</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="92839B31-8621-BF4B-0705-997121B33211" name="Employee PK">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 03:11:21 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>84841ACC-C3C7-F020-9125-67582757DDD5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
