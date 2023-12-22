@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FB4F366A-6B3D-8C58-0561-F34D41224A08" name="ModelColors">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 14:43:39 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ModelID" id="6EDDD87E-D8C0-33F5-DFF3-1EABEA4ADB95">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 14:44:32 UTC</createdTime>
+<generatorID>9E5A75CF-8D74-2BA4-BC37-EBFE9CB819AC</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<referedAttribute>9D21AAA8-0569-363B-8AF9-A478E9A1F105</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ColourID" id="4DB18776-47AD-014B-525B-17FAEB3568F0">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 14:46:57 UTC</createdTime>
+<generatorID>1BF7FA77-8B4D-AE8B-2F27-6077A1CF4812</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<referedAttribute>103E06E1-59DC-55CC-19DC-44EA1C3D2689</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

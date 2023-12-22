@@ -6,9 +6,10 @@
 <engineerTo>
 <item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
 </engineerTo>
+<targetPk>5E30CACC-6179-A409-363A-E59E3147156D</targetPk>
 <identifying>false</identifying>
-<optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
 <sourceEntity>DE009C91-18C4-B621-47C2-0587C0BAD376</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>

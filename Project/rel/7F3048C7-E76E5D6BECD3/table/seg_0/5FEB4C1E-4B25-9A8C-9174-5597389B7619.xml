@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5FEB4C1E-4B25-9A8C-9174-5597389B7619" name="CarOrder">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 13:18:01 UTC</createdTime>
+<generatorID>D71B3495-494C-B7A9-2F24-C8BA25CB5502</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OrderID" id="DDC0A83A-E650-D8BB-A7AC-319B523AE088">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 13:18:01 UTC</createdTime>
+<generatorID>DFA32B51-90BF-2827-471C-00269F77E817</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OrderStatus_OrderStatusID" id="071AA5AA-59E6-91E4-3EAB-B4EA82F2A18D">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 13:18:01 UTC</createdTime>
+<generatorID>9145B9C9-16F2-DD9E-89B0-47BC73AA368A</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75C2CBFF-871F-528E-66A0-24281A8C6DE2" referredColumn="CB62D81E-9BF1-6EC7-AB40-A386AE53FBB0"/>
+</associations>
+</Column>
+<Column name="Toyota-Instytution_InstytutionID" id="DFD93C36-E8F0-CB34-2A97-59E4FC4E3ED1">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 13:18:01 UTC</createdTime>
+<generatorID>C0CEDE59-2A01-7DEE-E81C-90F94B397CF3</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC8CF531-2A55-C199-85AD-C28D8A9046A8" referredColumn="E4B77FB0-8917-7C53-FB0D-D2388A425102"/>
+</associations>
+</Column>
+<Column name="Delivery_DeliveryID" id="D99E3984-96D7-186F-FE2E-4C0CB17DF859">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 13:18:01 UTC</createdTime>
+<generatorID>86880828-6BCC-3E58-9207-280E35F682B9</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Order_Details_OrderRecordID" id="5476F488-E4D9-DC4A-A433-2C65038C6C0D">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 13:18:01 UTC</createdTime>
+<generatorID>8B33E60C-29A2-9B84-A825-D76C95D2D7C0</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64B7E60D-DDFA-1130-77EA-58DD717B552E" referredColumn="BAED17F1-CD89-B07D-4D03-49BBACF32E3E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="59699181-74D1-77F3-5BCB-10A54B6E8421" name="Order_PK">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 13:18:01 UTC</createdTime>
+<generatorID>94A67281-D595-0FA0-80DB-A910F1BC5791</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDC0A83A-E650-D8BB-A7AC-319B523AE088"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB2ED0BA-EEB1-A099-2595-261D754E8C29" name="Order__IDX">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 13:18:01 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F0525A14-090B-52EE-5D26-E87854A9BBBE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5476F488-E4D9-DC4A-A433-2C65038C6C0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE5AD8C8-501F-65C1-15EF-F2A685505B3A" name="Order__IDXv1">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 13:18:01 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5119ED49-A5A4-FF2D-D793-C92CD83C41D6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D99E3984-96D7-186F-FE2E-4C0CB17DF859"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C52BD89-D1C7-55FA-036E-CCB00845B8FB" name="Order_Toyota-Instytution_FK">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 13:18:01 UTC</createdTime>
+<generatorID>D5589418-10A1-6C92-AB95-665F89AEBF81</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFD93C36-E8F0-CB34-2A97-59E4FC4E3ED1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C51BAC78-CEB2-82CF-E971-AE282CCB1E59" name="Order_Order_Details_FK">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 13:18:01 UTC</createdTime>
+<generatorID>F0525A14-090B-52EE-5D26-E87854A9BBBE</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5476F488-E4D9-DC4A-A433-2C65038C6C0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DE14E5E-779B-1739-F31B-4CEB4007D253" name="Order_OrderStatus_FK">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 13:18:01 UTC</createdTime>
+<generatorID>164837F2-B077-0E28-3CEF-97C762443715</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="071AA5AA-59E6-91E4-3EAB-B4EA82F2A18D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

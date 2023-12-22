@@ -15,6 +15,18 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DeliveryID" id="D0C3D9BA-8C4A-26E6-29F2-8CDA2128B685">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:46:30 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="OrderID" id="FD5A7BBD-7D0B-04B4-AE2D-BBE40671E47F">
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 01:13:30 UTC</createdTime>
@@ -29,5 +41,33 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="DTypeID" id="8740B0D1-C5DD-016A-63A0-87C4739DFE48">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:45:20 UTC</createdTime>
+<generatorID>C7B8DC42-1905-92A9-C412-CC7691633FDB</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<referedAttribute>B7F436B5-A9EA-2416-3BFE-12CD1AA84689</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="68F406CD-B6DB-20BF-2E8E-1ABF30FF424D" name="Delivery PK">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:46:54 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D0C3D9BA-8C4A-26E6-29F2-8CDA2128B685</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

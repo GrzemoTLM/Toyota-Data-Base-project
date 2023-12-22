@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E337DE0B-3AB5-1488-6A3F-133F1486F6B4" name="CarModel">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 13:18:01 UTC</createdTime>
+<generatorID>A42E5A00-0F1E-08DC-BEA8-8CB93D69B34D</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ModelID" id="493C2652-7621-40D2-20D7-4BE5ED868E0E">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 13:18:01 UTC</createdTime>
+<generatorID>9D21AAA8-0569-363B-8AF9-A478E9A1F105</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Car_CarID" id="8A8D2ACE-08B6-3E18-F536-521CE8181B82">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 13:18:01 UTC</createdTime>
+<generatorID>E2FBA975-BBFF-1D7B-DA09-714F77B4BC3F</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6B417D5-C9D4-19AF-2168-ECF0781469FB" referredColumn="8BC00E9C-84C1-113D-4137-C2F44E6C4C37"/>
+</associations>
+</Column>
+<Column name="ModelName" id="E2401BEB-B31E-313D-2EB9-9EEB998125C0">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 13:18:01 UTC</createdTime>
+<generatorID>DE2DFE57-2910-2A0C-4B07-25797FA16D58</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8ED9CB05-FB30-0475-7D4C-76D7F252D38C" name="CarModel_PK">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 13:18:01 UTC</createdTime>
+<generatorID>41F68BF7-679B-B7E8-425A-76128858CDD0</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="493C2652-7621-40D2-20D7-4BE5ED868E0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCEE91FA-B0FB-D72A-B098-9A53A24FD87F" name="CarModel_Car_FK">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 13:18:01 UTC</createdTime>
+<generatorID>B02CB3E6-2F0A-D315-B285-6A3A7BE7A1A5</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A8D2ACE-08B6-3E18-F536-521CE8181B82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

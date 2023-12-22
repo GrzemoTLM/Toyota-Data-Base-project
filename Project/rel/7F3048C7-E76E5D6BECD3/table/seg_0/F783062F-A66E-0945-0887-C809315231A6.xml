@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F783062F-A66E-0945-0887-C809315231A6" name="PartsInModel">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 15:28:10 UTC</createdTime>
+<generatorID>6599FFF8-7BC9-8904-7598-1372BD372ECE</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CarModel_ModelID" id="1AA1E491-2917-50A5-F2B3-A6C071C5D887">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 15:28:10 UTC</createdTime>
+<generatorID>BAD5D7A5-CAC4-B227-7057-FD10AA661BA2</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8402FC4-1B2A-C5BC-BE0B-E8DDD7752028" referredColumn="493C2652-7621-40D2-20D7-4BE5ED868E0E"/>
+</associations>
+</Column>
+<Column name="Part_PartID" id="9EEB97D9-67B4-4192-5813-2E0409DE67B3">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 15:28:10 UTC</createdTime>
+<generatorID>916D0E29-6A7B-2B50-1B95-3EFA94862741</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE4AD824-FEFD-C9FC-B860-F974A9B4E085" referredColumn="8338F4AB-8F22-5CB5-62E7-BC44462836DB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A93314E-015F-7F7B-9206-86FAFCE74B3D" name="PartsInModel_CarModel_FK">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 15:28:11 UTC</createdTime>
+<generatorID>300E6570-84E5-9E94-892E-047EAD0B2EFE</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AA1E491-2917-50A5-F2B3-A6C071C5D887"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1251626F-EB8F-BEBD-F193-F3CC1B3F5CAB" name="PartsInModel_Part_FK">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 15:28:11 UTC</createdTime>
+<generatorID>EB6DCC82-212E-82E0-DCD2-0C3BF47591B4</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EEB97D9-67B4-4192-5813-2E0409DE67B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -14,4 +14,71 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CountryID" id="FD7517AB-A62D-7C93-31CD-A93F80307F36">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:51:11 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Country" id="600B0E87-D435-D7EA-56A6-8137CFCA8118">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:51:07 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ToyotaRegionID" id="96D42D60-C52E-75B6-DA9D-C2244A9F1629">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:49:56 UTC</createdTime>
+<generatorID>13153718-7C7E-5CEC-BF88-928F29887B2A</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<referedAttribute>4ABBCDDE-8933-E985-AB06-A333907F4C2C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="42988123-0AA0-4E6E-BC56-A8013D1CC48F" name="Country PK">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:51:19 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FD7517AB-A62D-7C93-31CD-A93F80307F36</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="422D9811-5B07-DF1D-9173-DFAD32D319D1" name="Key_2">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:58:35 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<newElementsIDs>600B0E87-D435-D7EA-56A6-8137CFCA8118</newElementsIDs>
+<usedAttributes>
+<attributeRef>600B0E87-D435-D7EA-56A6-8137CFCA8118</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

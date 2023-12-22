@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D71B3495-494C-B7A9-2F24-C8BA25CB5502" name="Order">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D71B3495-494C-B7A9-2F24-C8BA25CB5502" name="CarOrder">
 <createdBy>pawel</createdBy>
 <createdTime>2023-10-25 20:02:41 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
@@ -37,6 +37,34 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>CB7DEE2D-D0B7-88F8-0419-4FDD9B66D625</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="InstytutionID" id="C0CEDE59-2A01-7DEE-E81C-90F94B397CF3">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:05:45 UTC</createdTime>
+<generatorID>D5589418-10A1-6C92-AB95-665F89AEBF81</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<referedAttribute>CE2D1454-8B24-ABEF-E785-801E43ED8718</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DeliveryID" id="86880828-6BCC-3E58-9207-280E35F682B9">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:47:52 UTC</createdTime>
+<generatorID>5119ED49-A5A4-FF2D-D793-C92CD83C41D6</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<referedAttribute>D0C3D9BA-8C4A-26E6-29F2-8CDA2128B685</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>

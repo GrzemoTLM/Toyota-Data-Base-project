@@ -14,4 +14,46 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ListRecord" id="B448DA09-842D-A453-4BC0-1B0C02F28E54">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:57:40 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CarID" id="AD7ADB8C-0C6B-FAF2-E9A1-203FDB2D97BA">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:57:37 UTC</createdTime>
+<generatorID>45DBFE96-AC36-3425-7F13-4931CAD380A1</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<referedAttribute>2165E488-1234-B19A-11B7-72E2000E1889</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1D234E36-C226-4D37-8CBA-B5C329FBE00E" name="InstalledGadgetsList PK">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:58:25 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B448DA09-842D-A453-4BC0-1B0C02F28E54</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
