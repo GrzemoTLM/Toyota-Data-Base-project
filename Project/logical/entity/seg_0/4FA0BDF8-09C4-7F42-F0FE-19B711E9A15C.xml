@@ -25,7 +25,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="OrderID" id="FD5A7BBD-7D0B-04B4-AE2D-BBE40671E47F">
 <createdBy>pawel</createdBy>
@@ -39,6 +40,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DTypeID" id="8740B0D1-C5DD-016A-63A0-87C4739DFE48">
@@ -53,6 +55,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PartOrderID" id="66AE890D-0E28-9FB5-C672-416B62DA1A5C">
@@ -67,7 +70,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypeScale>20</dataTypeScale>
+<dataTypePrecision>20</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DeliveryDate" id="2D084713-F454-862B-4F66-A2BC021A1ADF">

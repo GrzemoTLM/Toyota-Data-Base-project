@@ -25,7 +25,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="InstytutionID" id="B366DCB5-FFEE-721F-3DF5-1DCDD7CA6EF6">
 <createdBy>pawel</createdBy>
@@ -40,6 +41,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PODID" id="FAD60B8C-1ECD-AFD3-8BAB-C7BC22445511">
@@ -55,7 +57,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PartTypeID" id="8980E706-3E7C-A204-7D4F-D31F6B06D765">
 <createdBy>Grzegorz</createdBy>
@@ -69,8 +71,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypeScale>20</dataTypeScale>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DateOfProduction" id="64FC50FB-C0BC-2A04-4D1E-0344B0BA582B">
 <createdBy>Grzegorz</createdBy>

@@ -282,9 +282,9 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="753" y="691"/>
-<point x="753" y="646"/>
-<point x="775" y="646"/>
+<point x="743" y="691"/>
+<point x="743" y="656"/>
+<point x="775" y="656"/>
 <point x="775" y="615"/>
 </points>
 </Connector>
@@ -392,9 +392,9 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="794" y="442"/>
-<point x="794" y="463"/>
-<point x="775" y="463"/>
+<point x="784" y="442"/>
+<point x="784" y="473"/>
+<point x="775" y="473"/>
 <point x="775" y="505"/>
 </points>
 </Connector>
