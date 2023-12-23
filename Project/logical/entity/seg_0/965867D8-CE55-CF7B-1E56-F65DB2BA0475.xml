@@ -14,4 +14,58 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PartCategoryID" id="01926266-6A9E-2196-A842-A6A4A9CC5845">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 11:34:25 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PartCategoryName" id="88524BA7-807C-1E8F-0B72-87A5B143AD89">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 11:35:11 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="50C56DDD-DE60-7095-EB30-EF0F234BD5A2" name="PartCategory PK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 11:34:27 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>01926266-6A9E-2196-A842-A6A4A9CC5845</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="424D3FCF-BBA5-5374-097E-B2A247A59A07" name="Key_2">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 12:43:40 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<newElementsIDs>88524BA7-807C-1E8F-0B72-87A5B143AD89</newElementsIDs>
+<usedAttributes>
+<attributeRef>88524BA7-807C-1E8F-0B72-87A5B143AD89</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

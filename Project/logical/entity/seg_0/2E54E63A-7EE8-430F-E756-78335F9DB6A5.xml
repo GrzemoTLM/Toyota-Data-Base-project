@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Amount" id="60140246-1B5F-898B-19AF-BD7E66726042">
+<Attribute name="Quantity" id="60140246-1B5F-898B-19AF-BD7E66726042">
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 05:10:52 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>

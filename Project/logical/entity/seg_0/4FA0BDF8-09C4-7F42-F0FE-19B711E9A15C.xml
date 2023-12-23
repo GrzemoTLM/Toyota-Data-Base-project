@@ -55,6 +55,34 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="PartOrderID" id="66AE890D-0E28-9FB5-C672-416B62DA1A5C">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 12:35:48 UTC</createdTime>
+<generatorID>6081BA16-540B-4C0C-9F9C-9D502EAB9171</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<referedAttribute>7D282B01-5577-FD02-A96F-F6421BA98AA9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DeliveryDate" id="2D084713-F454-862B-4F66-A2BC021A1ADF">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 12:55:31 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="68F406CD-B6DB-20BF-2E8E-1ABF30FF424D" name="Delivery PK">

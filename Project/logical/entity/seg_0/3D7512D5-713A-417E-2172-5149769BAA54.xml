@@ -42,20 +42,6 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ListRecord" id="2392B352-5CB8-BC5C-79BA-1C3BA3C093B3">
-<createdBy>pawel</createdBy>
-<createdTime>2023-11-06 04:58:26 UTC</createdTime>
-<generatorID>45DBFE96-AC36-3425-7F13-4931CAD380A1</generatorID>
-<ownerDesignName>Project</ownerDesignName>
-<engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
-</engineerTo>
-<referedAttribute>B448DA09-842D-A453-4BC0-1B0C02F28E54</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="DateOfProduction" id="6FCDBE3B-9994-EF96-00C8-DAFF7363CF22">
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 05:02:10 UTC</createdTime>
@@ -63,7 +49,6 @@
 <engineerTo>
 <item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -81,6 +66,49 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ModelID" id="AD126FF5-9F78-3DBA-ED7B-E541A1971409">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 12:52:39 UTC</createdTime>
+<generatorID>A522751C-D4C3-A81A-A919-F9ADAF5D7910</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<referedAttribute>6EDDD87E-D8C0-33F5-DFF3-1EABEA4ADB95</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ColourID" id="976B65BF-D851-49C0-84C5-30F0A7B2F586">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 12:52:39 UTC</createdTime>
+<generatorID>A522751C-D4C3-A81A-A919-F9ADAF5D7910</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<referedAttribute>4DB18776-47AD-014B-525B-17FAEB3568F0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GearBoxID" id="3EF1AAFF-6265-A3B4-69E0-477E40A92503">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 15:42:52 UTC</createdTime>
+<generatorID>D43EAD7C-58AC-D4BF-BA2D-5AF22CEA6B15</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<referedAttribute>D3EDFB50-D765-29DF-A69E-E40CEC7A920A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

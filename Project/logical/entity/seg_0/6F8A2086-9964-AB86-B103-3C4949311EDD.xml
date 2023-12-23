@@ -54,5 +54,17 @@
 <attributeRef>6076E82D-C881-4AC2-780C-9FC4F84B4A60</attributeRef>
 </usedAttributes>
 </identifier>
+<identifier id="E8B97CEA-6049-E9E5-249A-795DAEB5F52D" name="Key_2">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 12:56:28 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<newElementsIDs>10A79BBE-BFDB-00CA-EA95-8E755490D300</newElementsIDs>
+<usedAttributes>
+<attributeRef>10A79BBE-BFDB-00CA-EA95-8E755490D300</attributeRef>
+</usedAttributes>
+</identifier>
 </identifiers>
 </Entity>

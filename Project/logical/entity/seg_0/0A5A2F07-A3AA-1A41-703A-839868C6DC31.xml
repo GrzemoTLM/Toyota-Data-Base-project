@@ -34,7 +34,6 @@
 <engineerTo>
 <item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -52,6 +51,18 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>B7F436B5-A9EA-2416-3BFE-12CD1AA84689</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="BE3BCC86-0163-219B-8665-91543316793F" name="Key_2">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 16:36:04 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<newElementsIDs>AA574EC9-375A-EA9F-54B1-A92245B281D8</newElementsIDs>
+<usedAttributes>
+<attributeRef>AA574EC9-375A-EA9F-54B1-A92245B281D8</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

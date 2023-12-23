@@ -27,9 +27,23 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CarID" id="AD7ADB8C-0C6B-FAF2-E9A1-203FDB2D97BA">
-<createdBy>pawel</createdBy>
-<createdTime>2023-11-06 04:57:37 UTC</createdTime>
+<Attribute name="GadgetID" id="7964D669-F60A-A761-DB1F-E92E11002C17">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 15:47:10 UTC</createdTime>
+<generatorID>93F3DE03-29B0-333D-152D-4EC64D677E3E</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<referedAttribute>D3EDFCF2-5A65-CC14-23BF-C872B3BE4332</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CarID" id="02F60B15-AED8-32A7-19EE-EECE95281681">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 15:48:18 UTC</createdTime>
 <generatorID>45DBFE96-AC36-3425-7F13-4931CAD380A1</generatorID>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>

@@ -23,12 +23,54 @@
 <engineerTo>
 <item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <referedAttribute>9D21AAA8-0569-363B-8AF9-A478E9A1F105</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="PartTypeID" id="49BD785F-07CC-708D-551D-4A9093789FE2">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 11:40:39 UTC</createdTime>
+<generatorID>CFDEFFBF-40ED-3171-0B94-4245CD1B53DE</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<referedAttribute>5CD1219A-F2AD-B372-6769-363D587D1D47</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A147B118-72BB-9CC4-F9C7-7EFB6330CF25" name="Key_2">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 12:48:35 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<newElementsIDs>CFDEFFBF-40ED-3171-0B94-4245CD1B53DE,300E6570-84E5-9E94-892E-047EAD0B2EFE</newElementsIDs>
+<usedAttributes>
+<attributeRef>49BD785F-07CC-708D-551D-4A9093789FE2</attributeRef>
+<attributeRef>BAD5D7A5-CAC4-B227-7057-FD10AA661BA2</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="D497D7BE-DF69-B412-1A11-01A730E45DD0" name="PartsInModel PKv1">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 12:49:12 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BAD5D7A5-CAC4-B227-7057-FD10AA661BA2</attributeRef>
+<attributeRef>49BD785F-07CC-708D-551D-4A9093789FE2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

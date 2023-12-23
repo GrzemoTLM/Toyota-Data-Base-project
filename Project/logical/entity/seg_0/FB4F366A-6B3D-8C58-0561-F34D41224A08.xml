@@ -44,4 +44,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FA8FA089-AF55-6907-F2BE-F59713A21E0D" name="ModelColors PK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 12:52:36 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6EDDD87E-D8C0-33F5-DFF3-1EABEA4ADB95</attributeRef>
+<attributeRef>4DB18776-47AD-014B-525B-17FAEB3568F0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

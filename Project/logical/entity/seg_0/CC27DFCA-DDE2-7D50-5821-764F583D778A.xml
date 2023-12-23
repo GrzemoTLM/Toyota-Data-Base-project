@@ -42,6 +42,48 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="PODID" id="FAD60B8C-1ECD-AFD3-8BAB-C7BC22445511">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 11:29:33 UTC</createdTime>
+<generatorID>B85D6457-7322-DCDE-DC77-EFF470AE94BD</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<referedAttribute>25F3DADF-FA17-5659-0635-C8091EE98A28</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PartTypeID" id="8980E706-3E7C-A204-7D4F-D31F6B06D765">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 11:40:39 UTC</createdTime>
+<generatorID>33D34BEB-1912-06CE-85D7-004E2BE8C7BC</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<referedAttribute>5CD1219A-F2AD-B372-6769-363D587D1D47</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DateOfProduction" id="64FC50FB-C0BC-2A04-4D1E-0344B0BA582B">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 12:47:55 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="6D463005-9E55-A7B0-EFE4-0C99E6F1F3E9" name="Part PK">
