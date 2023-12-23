@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8A82E40-F3CC-8B11-135C-D1ED29C4DC5E" name="Body parts">
-<createdBy>pawel</createdBy>
-<createdTime>2023-10-28 17:30:18 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D96C80BC-BEA8-191E-F51F-037257BF119A" name="PartOrderDeatils">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-22 23:44:18 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
 <item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
@@ -15,16 +15,15 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="BodyID" id="80F253B9-1030-9109-5FBC-2506B82E9DBE">
-<createdBy>pawel</createdBy>
-<createdTime>2023-11-06 05:04:44 UTC</createdTime>
-<generatorID>3E15B902-F1AB-9583-CDAE-88708B6A5936</generatorID>
+<Attribute name="PartID" id="F9DB3B88-4729-3C7B-EC59-31F97046C098">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-22 23:47:51 UTC</createdTime>
+<generatorID>B85D6457-7322-DCDE-DC77-EFF470AE94BD</generatorID>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
 <item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>811A4F5E-093A-E8E2-5EBC-15D5D74E0BCB</referedAttribute>
+<referedAttribute>401EE7C5-E00E-3081-24B6-356805B96CDF</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
