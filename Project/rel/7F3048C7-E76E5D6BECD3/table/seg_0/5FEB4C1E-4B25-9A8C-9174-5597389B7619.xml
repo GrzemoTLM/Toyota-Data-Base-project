@@ -16,7 +16,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="OrderStatus_OrderStatusID" id="071AA5AA-59E6-91E4-3EAB-B4EA82F2A18D">
@@ -28,6 +29,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -43,6 +45,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -58,9 +61,13 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B4049F7-B325-732A-38CC-5692BE63DA23" referredColumn="310879E6-CBEC-DDF2-9286-82BC6538D952"/>
+</associations>
 </Column>
 <Column name="Order_Details_OrderRecordID" id="5476F488-E4D9-DC4A-A433-2C65038C6C0D">
 <createdBy>Bohdan</createdBy>
@@ -70,6 +77,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -79,7 +87,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="59699181-74D1-77F3-5BCB-10A54B6E8421" name="Order_PK">
+<ind_PK_UK id="59699181-74D1-77F3-5BCB-10A54B6E8421" name="CarOrder_PK">
 <createdBy>Bohdan</createdBy>
 <createdTime>2023-11-06 13:18:01 UTC</createdTime>
 <generatorID>94A67281-D595-0FA0-80DB-A910F1BC5791</generatorID>
@@ -113,7 +121,7 @@
 <colUsage columnID="D99E3984-96D7-186F-FE2E-4C0CB17DF859"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6C52BD89-D1C7-55FA-036E-CCB00845B8FB" name="Order_Toyota-Instytution_FK">
+<ind_PK_UK id="6C52BD89-D1C7-55FA-036E-CCB00845B8FB" name="CarOrder_Toyota-Instytution_FK">
 <createdBy>Bohdan</createdBy>
 <createdTime>2023-11-06 13:18:01 UTC</createdTime>
 <generatorID>D5589418-10A1-6C92-AB95-665F89AEBF81</generatorID>
@@ -135,7 +143,7 @@
 <colUsage columnID="5476F488-E4D9-DC4A-A433-2C65038C6C0D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6DE14E5E-779B-1739-F31B-4CEB4007D253" name="Order_OrderStatus_FK">
+<ind_PK_UK id="6DE14E5E-779B-1739-F31B-4CEB4007D253" name="CarOrder_OrderStatus_FK">
 <createdBy>Bohdan</createdBy>
 <createdTime>2023-11-06 13:18:01 UTC</createdTime>
 <generatorID>164837F2-B077-0E28-3CEF-97C762443715</generatorID>
@@ -144,6 +152,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="071AA5AA-59E6-91E4-3EAB-B4EA82F2A18D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B82D4F7A-A032-C8F7-2359-B29086BCA3DA" name="CarOrder_Delivery_FK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>5119ED49-A5A4-FF2D-D793-C92CD83C41D6</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D99E3984-96D7-186F-FE2E-4C0CB17DF859"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

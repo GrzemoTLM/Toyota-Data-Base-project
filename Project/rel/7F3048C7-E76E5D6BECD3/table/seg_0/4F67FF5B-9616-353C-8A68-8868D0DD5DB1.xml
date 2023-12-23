@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED20EA0A-AF20-17CA-4D7E-7A1B5DE69101" name="JobPosition">
-<createdBy>Bohdan</createdBy>
-<createdTime>2023-11-06 13:18:01 UTC</createdTime>
-<generatorID>6F8A2086-9964-AB86-B103-3C4949311EDD</generatorID>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F67FF5B-9616-353C-8A68-8868D0DD5DB1" name="PartCategory">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>965867D8-CE55-CF7B-1E56-F65DB2BA0475</generatorID>
 <ownerDesignName>Project</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="PositionID" id="B4DF9B56-AD54-CE65-BF48-51FBEA279584">
-<createdBy>Bohdan</createdBy>
-<createdTime>2023-11-06 13:18:01 UTC</createdTime>
-<generatorID>6076E82D-C881-4AC2-780C-9FC4F84B4A60</generatorID>
+<Column name="PartCategoryID" id="8AD99530-3B62-B837-998B-4736C5C92475">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>01926266-6A9E-2196-A842-A6A4A9CC5845</generatorID>
 <ownerDesignName>Project</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -20,42 +20,41 @@
 <ownDataTypeParameters>,20,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Position" id="78721776-7418-7291-FC96-06689741E442">
-<createdBy>Bohdan</createdBy>
-<createdTime>2023-11-06 13:18:01 UTC</createdTime>
-<generatorID>10A79BBE-BFDB-00CA-EA95-8E755490D300</generatorID>
+<Column name="PartCategoryName" id="5A1601E0-9012-73D3-54A5-9C0FB9629C2B">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>88524BA7-807C-1E8F-0B72-87A5B143AD89</generatorID>
 <ownerDesignName>Project</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="8E6C04DC-F251-A609-EFCB-F3BD64FDBD06" name="JobPosition_PK">
-<createdBy>Bohdan</createdBy>
-<createdTime>2023-11-06 13:18:01 UTC</createdTime>
-<generatorID>355308C3-23AB-8BAE-0B65-A99C4E55A0DA</generatorID>
+<ind_PK_UK id="E5AF2641-168B-2865-901B-499EB0416D46" name="PartCategory_PK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>50C56DDD-DE60-7095-EB30-EF0F234BD5A2</generatorID>
 <ownerDesignName>Project</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B4DF9B56-AD54-CE65-BF48-51FBEA279584"/>
+<colUsage columnID="8AD99530-3B62-B837-998B-4736C5C92475"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="52178524-7A3D-75B1-7E63-F48FBA48CF60" name="JobPosition_Position_UN">
+<ind_PK_UK id="89FC2EFD-6FF2-D570-2AC3-38A234D62387" name="PartCategory_PartCategoryName_UN">
 <createdBy>Grzegorz</createdBy>
 <createdTime>2023-12-23 17:48:43 UTC</createdTime>
-<generatorID>E8B97CEA-6049-E9E5-249A-795DAEB5F52D</generatorID>
+<generatorID>424D3FCF-BBA5-5374-097E-B2A247A59A07</generatorID>
 <ownerDesignName>Project</ownerDesignName>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="78721776-7418-7291-FC96-06689741E442"/>
+<colUsage columnID="5A1601E0-9012-73D3-54A5-9C0FB9629C2B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3EE2B47E-1934-4757-BCC0-1F2B5B9F445F" containerWithKeyObject="CFB6B6A3-0654-6260-8BBD-698568E8A7C9" localFKIndex="21D3EC9E-0135-F296-3A9D-52975AA8A4AB" name="InstalledGadgetsList_Gadgets&amp;Facilities_FK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>93F3DE03-29B0-333D-152D-4EC64D677E3E</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<referredTableLongName>Gadgets&amp;Facilities</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>41A538E5-42F9-8B73-267E-67A95FEAC704</referredTableID>
+<keyObject>5AE82867-0DE0-485A-B3F7-DCE432EA7953</keyObject>
+<referredKeyID>5AE82867-0DE0-485A-B3F7-DCE432EA7953</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>GadgetID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

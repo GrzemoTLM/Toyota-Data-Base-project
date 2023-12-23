@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="41A538E5-42F9-8B73-267E-67A95FEAC704" name="Gadgets">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="41A538E5-42F9-8B73-267E-67A95FEAC704" name="Gadgets&amp;Facilities">
 <createdBy>Bohdan</createdBy>
 <createdTime>2023-11-06 13:18:01 UTC</createdTime>
 <generatorID>C61A3D61-FA2A-8C95-5D53-77FC48D8E8E8</generatorID>
@@ -16,7 +16,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Gadget" id="278BFB10-B545-3D39-89C5-F044CDCDADD4">
@@ -31,21 +32,17 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="InstalledGadgetsList_ListRecord" id="9F983F2B-FF9A-FC3D-EDEB-BEB18B791B01">
-<createdBy>Bohdan</createdBy>
-<createdTime>2023-11-06 13:18:01 UTC</createdTime>
-<generatorID>D2BC30E7-1249-A8B1-D5FB-D25040F4BF52</generatorID>
+<Column name="GadgetName" id="BE24F61F-3101-10F3-83ED-DF30E0D1C0A9">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>FDF36D3D-A8AA-91EC-04B2-04E701F9C761</generatorID>
 <ownerDesignName>Project</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="CFC9F43E-52F8-D4AE-C66B-73AFEB4A2ECE" referredColumn="E38299B9-154D-1378-E868-B51F3D7CFF28"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -59,17 +56,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="34A57C0E-2BA1-310C-B428-6DB2840A5DAE"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="C9515C55-C9FC-BA75-0FA0-31A27CE6538C" name="Gadgets_InstalledGadgetsList_FK">
-<createdBy>Bohdan</createdBy>
-<createdTime>2023-11-06 13:18:01 UTC</createdTime>
-<generatorID>93F3DE03-29B0-333D-152D-4EC64D677E3E</generatorID>
-<ownerDesignName>Project</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="9F983F2B-FF9A-FC3D-EDEB-BEB18B791B01"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

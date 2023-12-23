@@ -16,7 +16,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Toyota-Instytution_InstytutionID" id="5CEB958A-28E0-2181-BFEF-E2683649FC66">
@@ -28,6 +29,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -52,7 +54,6 @@
 <createdTime>2023-11-06 13:18:01 UTC</createdTime>
 <generatorID>6FCDBE3B-9994-EF96-00C8-DAFF7363CF22</generatorID>
 <ownerDesignName>Project</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -68,6 +69,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -83,7 +85,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -100,9 +103,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="FE1D6B98-B67E-1319-1A2E-587A441787A4" referredColumn="F78FCE7B-5CBB-46C7-FDF9-235848BA5AD8"/>
-</associations>
 </Column>
 <Column name="GearboxType_GearboxType_ID" id="22F3C3AB-A3BA-C062-750D-D0ACD75EBBA7">
 <createdBy>Bohdan</createdBy>
@@ -114,8 +114,53 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ModelID" id="AF744486-BC25-C56C-1204-31B2F0C915E8">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>AD126FF5-9F78-3DBA-ED7B-E541A1971409</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="CB215AFC-E49D-1BF9-2B8B-E315FFEC9BA0" referredColumn="47BCD360-8774-A12A-90A0-48A0E9026441"/>
+<colAssociation fkAssociation="FE1D6B98-B67E-1319-1A2E-587A441787A4" referredColumn="28E2AD67-71A7-007B-2B85-CF512213BBB5"/>
+</associations>
+</Column>
+<Column name="ColourID" id="76135A65-4A4E-EFEC-3544-1B9DE5E0EEDB">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>976B65BF-D851-49C0-84C5-30F0A7B2F586</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE1D6B98-B67E-1319-1A2E-587A441787A4" referredColumn="03971D0A-F7EB-2D55-303A-90D9B0647065"/>
+</associations>
+</Column>
+<Column name="GearBoxID" id="34FAC161-4E5A-9635-3216-AA49E9C95465">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>3EF1AAFF-6265-A3B4-69E0-477E40A92503</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB215AFC-E49D-1BF9-2B8B-E315FFEC9BA0" referredColumn="58AB7568-2D00-EABA-C0E7-B569831B8C61"/>
 </associations>
 </Column>
 </columns>
@@ -184,7 +229,8 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="EFB82071-93FD-ED0D-2350-EFDEE47A2D28"/>
+<colUsage columnID="AF744486-BC25-C56C-1204-31B2F0C915E8"/>
+<colUsage columnID="76135A65-4A4E-EFEC-3544-1B9DE5E0EEDB"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="2399D9C2-6CCD-A668-7286-F733EDDE366A" name="Car_GearboxType_FK">
@@ -195,7 +241,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="22F3C3AB-A3BA-C062-750D-D0ACD75EBBA7"/>
+<colUsage columnID="34FAC161-4E5A-9635-3216-AA49E9C95465"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

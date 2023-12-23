@@ -16,7 +16,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="DeliveryType" id="939A5F31-60FE-6702-A7F7-44005960172F">
@@ -24,11 +25,11 @@
 <createdTime>2023-11-06 13:18:01 UTC</createdTime>
 <generatorID>AA574EC9-375A-EA9F-54B1-A92245B281D8</generatorID>
 <ownerDesignName>Project</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -43,6 +44,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="5A22396D-C383-2F5B-ED8E-2143AAD72437"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72DEF6BB-418A-B2FE-A521-8042E29721E3" name="Delivery_type_DeliveryType_UN">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>BE3BCC86-0163-219B-8665-91543316793F</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="939A5F31-60FE-6702-A7F7-44005960172F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

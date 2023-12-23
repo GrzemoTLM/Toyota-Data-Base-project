@@ -16,7 +16,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Name" id="3379043F-0847-476B-2667-1A83B6B765A3">
@@ -24,11 +25,11 @@
 <createdTime>2023-11-06 13:18:01 UTC</createdTime>
 <generatorID>864FF976-2B89-1EC9-905C-B4324D0316B1</generatorID>
 <ownerDesignName>Project</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Surename" id="E9E009AA-A9CA-F76F-0198-883609D2CC52">
@@ -36,11 +37,11 @@
 <createdTime>2023-11-06 13:18:01 UTC</createdTime>
 <generatorID>E9ADE092-FBC0-3DDE-2DAA-6C43F599C2FA</generatorID>
 <ownerDesignName>Project</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Schedule_ScheduleID" id="41013A82-A926-8AAF-694F-7E7F2CAAF4FD">
@@ -58,7 +59,7 @@
 <colAssociation fkAssociation="6985FB3D-D499-8E5C-EF0D-EB89344AFADC" referredColumn="9C5DB0C6-7303-6450-886B-AC92721F35A7"/>
 </associations>
 </Column>
-<Column name="Position_PositionID" id="EDCD6520-3D5D-DAA7-73E2-BA6F4572413C">
+<Column name="JobPosition_PositionID" id="EDCD6520-3D5D-DAA7-73E2-BA6F4572413C">
 <createdBy>Bohdan</createdBy>
 <createdTime>2023-11-06 13:18:01 UTC</createdTime>
 <generatorID>1B46A770-5E90-A4D7-2F7C-33C8EE477FB3</generatorID>
@@ -66,7 +67,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -97,6 +99,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -162,7 +165,7 @@
 <colUsage columnID="90D45DB4-4CE6-E672-184C-01DA3E11B85B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="AA47C25E-E592-9E69-122A-5BC3980F6E62" name="Employee_Position_FK">
+<ind_PK_UK id="AA47C25E-E592-9E69-122A-5BC3980F6E62" name="Employee_JobPosition_FK">
 <createdBy>Bohdan</createdBy>
 <createdTime>2023-11-06 13:18:01 UTC</createdTime>
 <generatorID>81B1A7DF-ED3F-AFEE-B645-8186385D2B89</generatorID>

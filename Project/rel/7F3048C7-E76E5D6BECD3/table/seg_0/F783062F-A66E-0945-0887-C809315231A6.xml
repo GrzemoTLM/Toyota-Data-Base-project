@@ -13,10 +13,10 @@
 <createdTime>2023-11-06 15:28:10 UTC</createdTime>
 <generatorID>BAD5D7A5-CAC4-B227-7057-FD10AA661BA2</generatorID>
 <ownerDesignName>Project</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -32,6 +32,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -39,8 +40,49 @@
 <colAssociation fkAssociation="BE4AD824-FEFD-C9FC-B860-F974A9B4E085" referredColumn="8338F4AB-8F22-5CB5-62E7-BC44462836DB"/>
 </associations>
 </Column>
+<Column name="PartType_PartTypeID" id="BD749B55-5F92-3628-3284-F81D9759B664">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>49BD785F-07CC-708D-551D-4A9093789FE2</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F5E31F1-F170-80D5-48A3-C12B1085AA67" referredColumn="2AA8B2E1-9DDD-1A02-047E-2002355D767C"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DCE54079-9EC9-B37E-5D41-8CD76F715E04" name="PartsInModel_PK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>D497D7BE-DF69-B412-1A11-01A730E45DD0</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AA1E491-2917-50A5-F2B3-A6C071C5D887"/>
+<colUsage columnID="BD749B55-5F92-3628-3284-F81D9759B664"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F535A85-4D15-C8B6-0C1C-D301CCBDC9D2" name="PartsInModel_PartTypeID_CarModel_ModelID_UN">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>A147B118-72BB-9CC4-F9C7-7EFB6330CF25</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD749B55-5F92-3628-3284-F81D9759B664"/>
+<colUsage columnID="1AA1E491-2917-50A5-F2B3-A6C071C5D887"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="4A93314E-015F-7F7B-9206-86FAFCE74B3D" name="PartsInModel_CarModel_FK">
 <createdBy>Bohdan</createdBy>
 <createdTime>2023-11-06 15:28:11 UTC</createdTime>
@@ -61,6 +103,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="9EEB97D9-67B4-4192-5813-2E0409DE67B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14EDF6A8-341F-4A7A-0422-DE8E7DB7B74D" name="PartsInModel_PartType_FK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>CFDEFFBF-40ED-3171-0B94-4245CD1B53DE</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD749B55-5F92-3628-3284-F81D9759B664"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
