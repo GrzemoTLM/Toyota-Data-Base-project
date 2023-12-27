@@ -74,6 +74,18 @@
 <dataTypePrecision>20</dataTypePrecision>
 <ownDataTypeParameters>,20,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="DateOfOrder" id="2B284413-C0B2-CFEE-1649-D5CA1B4D977E">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-27 13:58:29 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="6619A9B8-920A-7322-DAEF-D37914BE5C37" name="PartOrder PK">

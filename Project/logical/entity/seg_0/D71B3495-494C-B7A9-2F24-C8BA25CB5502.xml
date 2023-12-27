@@ -42,7 +42,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="InstytutionID" id="C0CEDE59-2A01-7DEE-E81C-90F94B397CF3">
 <createdBy>pawel</createdBy>
@@ -57,7 +57,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DeliveryID" id="86880828-6BCC-3E58-9207-280E35F682B9">
 <createdBy>pawel</createdBy>
@@ -73,6 +73,18 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
 <ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DateCarOrder" id="1CBE9D38-13FC-AFDD-092B-08256D41D8DC">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-27 13:59:09 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
