@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F67FF5B-9616-353C-8A68-8868D0DD5DB1" name="PartCategory">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>965867D8-CE55-CF7B-1E56-F65DB2BA0475</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PartCategoryID" id="8AD99530-3B62-B837-998B-4736C5C92475">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>01926266-6A9E-2196-A842-A6A4A9CC5845</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PartCategoryName" id="5A1601E0-9012-73D3-54A5-9C0FB9629C2B">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>88524BA7-807C-1E8F-0B72-87A5B143AD89</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E5AF2641-168B-2865-901B-499EB0416D46" name="PartCategory_PK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>50C56DDD-DE60-7095-EB30-EF0F234BD5A2</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AD99530-3B62-B837-998B-4736C5C92475"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89FC2EFD-6FF2-D570-2AC3-38A234D62387" name="PartCategory_PartCategoryName_UN">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>424D3FCF-BBA5-5374-097E-B2A247A59A07</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A1601E0-9012-73D3-54A5-9C0FB9629C2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

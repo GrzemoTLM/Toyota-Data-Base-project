@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44DAC385-B96E-B781-E32E-DDB770DA58DE" name="GearboxType">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 15:28:10 UTC</createdTime>
+<generatorID>C71F735A-3D2C-DCC9-3C10-ABDB016F6994</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GearboxType_ID" id="47BCD360-8774-A12A-90A0-48A0E9026441">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 15:28:10 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="GearBoxID" id="58AB7568-2D00-EABA-C0E7-B569831B8C61">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>D3EDFB50-D765-29DF-A69E-E40CEC7A920A</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GearBoxType" id="22C0E537-3FC4-F43D-0F11-A611B2920A7A">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>F3BBC1F3-886A-8543-BB79-7F32A82A0E8C</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GearBoxName" id="445AC0BF-8AAB-CE91-6555-B31A001CAAB2">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>0E61FFD5-F4E4-37F5-DAB5-1C2E38E21992</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99397440-4191-69DB-6C3F-3A21FA0FE5A1" name="GearboxType_PKv2">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>CA9FC735-8EEB-070E-C661-85B9916EC09C</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58AB7568-2D00-EABA-C0E7-B569831B8C61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDE85D1A-4784-380B-7BD1-D9D5FC705EB1" name="GearboxType_PK">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 15:28:10 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="47BCD360-8774-A12A-90A0-48A0E9026441"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

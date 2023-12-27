@@ -14,4 +14,60 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ColourID" id="103E06E1-59DC-55CC-19DC-44EA1C3D2689">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 05:06:29 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ColourName" id="1E401CE1-1FA8-410C-5146-6D9D60D80FD0">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 05:06:42 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4AD8ECE2-0A57-BFD3-6074-62C2A2CFF5DF" name="Colour PK">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 05:06:38 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>103E06E1-59DC-55CC-19DC-44EA1C3D2689</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="7B3A6588-3790-7CBC-8724-03003B152CCD" name="Key_2">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 05:07:07 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="false"/>
+</engineerTo>
+<newElementsIDs>1E401CE1-1FA8-410C-5146-6D9D60D80FD0</newElementsIDs>
+<usedAttributes>
+<attributeRef>1E401CE1-1FA8-410C-5146-6D9D60D80FD0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

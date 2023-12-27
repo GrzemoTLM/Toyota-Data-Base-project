@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A422906F-3782-6B93-E303-E88278269A4D" name="Engine_parts">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 13:18:01 UTC</createdTime>
+<generatorID>38C8D5FF-696A-190F-3656-FC6E16183164</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Engine_EngineID" id="82D50700-F984-7633-D2DD-F90043079F8B">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 13:18:01 UTC</createdTime>
+<generatorID>DFB71B19-0992-2908-7F97-FB6124C38D57</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5CCABB92-85FC-BCFE-20A3-A365CC912326" referredColumn="2A618D9B-80C4-6733-C9A7-6A1322453CC5"/>
+</associations>
+</Column>
+<Column name="Engine_parts_ID" id="E11D19CE-C73B-1C60-4A82-875E56957782">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 13:18:01 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3174D33F-516A-C036-B9E3-D1F746211D4C" name="Engine_parts_PK">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 13:18:01 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="E11D19CE-C73B-1C60-4A82-875E56957782"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2ABA2610-7CE9-5FC0-15C2-CF916AEA223F" name="Engine_parts_Engine_FK">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 13:18:01 UTC</createdTime>
+<generatorID>CA9EE219-66C8-B350-BD00-7819F2B0BB06</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82D50700-F984-7633-D2DD-F90043079F8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

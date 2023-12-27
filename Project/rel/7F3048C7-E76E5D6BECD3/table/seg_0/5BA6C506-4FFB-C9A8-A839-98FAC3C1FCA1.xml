@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5BA6C506-4FFB-C9A8-A839-98FAC3C1FCA1" name="PartType">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>ABDC7C29-017A-7F9E-12C9-DA1B1A70D0C0</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PartTypeID" id="2AA8B2E1-9DDD-1A02-047E-2002355D767C">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>5CD1219A-F2AD-B372-6769-363D587D1D47</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PartTypeName" id="A66087A6-6377-8D1E-B376-96D317C430E7">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>541C7AF4-614A-242B-50F6-A305FC4BDE4E</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PartCategory_PartCategoryID" id="26A637E7-A9A6-E6EB-5C2F-14FC9CB5518A">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>14893069-3F85-4B32-22B6-3AA63BB44C1A</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C92A1500-642F-1BF8-8DB8-04A54603E0BF" referredColumn="8AD99530-3B62-B837-998B-4736C5C92475"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA8AC015-3D58-CA1B-6D99-2EF16832DC13" name="PartType_PK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>965AEB14-8F61-853F-9AA5-79609D8F1F81</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AA8B2E1-9DDD-1A02-047E-2002355D767C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05D56E84-476C-6633-20D2-931ABBC90F95" name="PartType_PartCategory_FK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>BF18D660-5DBA-7B55-E278-4BA21E946CB7</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26A637E7-A9A6-E6EB-5C2F-14FC9CB5518A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

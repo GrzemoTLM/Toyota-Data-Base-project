@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DE009C91-18C4-B621-47C2-0587C0BAD376" name="Toyota-Instytution">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DE009C91-18C4-B621-47C2-0587C0BAD376" name="Instytution">
 <createdBy>pawel</createdBy>
 <createdTime>2023-10-25 20:39:35 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
@@ -14,4 +14,78 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="InstID" id="CE2D1454-8B24-ABEF-E785-801E43ED8718">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:05:35 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ITypeID" id="C68EB334-49EB-2CCB-2666-CC5648E98205">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:07:00 UTC</createdTime>
+<generatorID>609621F9-E589-699C-E4AD-B184EB490B37</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<referedAttribute>AD260B22-3463-4A2C-F4AD-B98AACEA1801</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CityID" id="5BADC39D-D541-8FFE-FB1C-4C3ECA2C2722">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:52:41 UTC</createdTime>
+<generatorID>61FA6EB8-6C45-9FDE-E610-CD864A601CC4</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<referedAttribute>B4251E0C-A194-8DAC-2273-3A07368A5935</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="InstName" id="3133471A-4225-2DC2-4E66-42397F2EB475">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:54:10 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="79406DE3-8824-7BA4-4E96-7E96A6885B5A" name="Toyota-Instytution PK">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:05:44 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CE2D1454-8B24-ABEF-E785-801E43ED8718</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

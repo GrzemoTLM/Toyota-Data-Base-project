@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85DD7A9E-91FA-9958-B622-74945FE95A5F" name="ModelColors">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 15:28:10 UTC</createdTime>
+<generatorID>FB4F366A-6B3D-8C58-0561-F34D41224A08</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CarModel_ModelID" id="28E2AD67-71A7-007B-2B85-CF512213BBB5">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 15:28:10 UTC</createdTime>
+<generatorID>6EDDD87E-D8C0-33F5-DFF3-1EABEA4ADB95</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99918CEE-51F2-4D51-5058-76FFAF03E6FC" referredColumn="493C2652-7621-40D2-20D7-4BE5ED868E0E"/>
+</associations>
+</Column>
+<Column name="Colour_ColourID" id="03971D0A-F7EB-2D55-303A-90D9B0647065">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 15:28:10 UTC</createdTime>
+<generatorID>4DB18776-47AD-014B-525B-17FAEB3568F0</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C457987-1AF0-FE0E-1E1D-BE99C6A36555" referredColumn="6370D97B-3E3D-5943-5841-6849EF1483D9"/>
+</associations>
+</Column>
+<Column name="ModelColors_ID" id="F78FCE7B-5CBB-46C7-FDF9-235848BA5AD8">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 15:28:10 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5325C68A-E333-5977-A949-BB00C1125745" name="ModelColors_PKv2">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 17:48:43 UTC</createdTime>
+<generatorID>FA8FA089-AF55-6907-F2BE-F59713A21E0D</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28E2AD67-71A7-007B-2B85-CF512213BBB5"/>
+<colUsage columnID="03971D0A-F7EB-2D55-303A-90D9B0647065"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10C74112-758B-924E-37C8-5D6CD61B7193" name="ModelColors_PK">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 15:28:10 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="F78FCE7B-5CBB-46C7-FDF9-235848BA5AD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8965420A-43C7-80DC-C6D6-AE18D1D19213" name="ModelColors_CarModel_FK">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 15:28:10 UTC</createdTime>
+<generatorID>9E5A75CF-8D74-2BA4-BC37-EBFE9CB819AC</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28E2AD67-71A7-007B-2B85-CF512213BBB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B00E0F5-D651-D385-291C-96FCFC1B81CA" name="ModelColors_Colour_FK">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 15:28:10 UTC</createdTime>
+<generatorID>1BF7FA77-8B4D-AE8B-2F27-6077A1CF4812</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03971D0A-F7EB-2D55-303A-90D9B0647065"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

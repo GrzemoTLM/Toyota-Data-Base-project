@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="040FDAB5-34BE-23A5-6C98-B89AE578131D" name="BodyInModel">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 15:53:46 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ModelID" id="45B770E5-5515-F3DB-7AE5-EF0F9356958B">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 16:14:17 UTC</createdTime>
+<generatorID>983CAC33-908F-D77F-9AF2-2535D75F2F50</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<referedAttribute>9D21AAA8-0569-363B-8AF9-A478E9A1F105</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BodyID" id="08DAB0D8-8FDE-A355-67E8-5EABC356087F">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 16:14:29 UTC</createdTime>
+<generatorID>3C28A626-BC93-2DDF-F604-91752A462BD6</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<referedAttribute>811A4F5E-093A-E8E2-5EBC-15D5D74E0BCB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AD800D2C-5273-C350-4440-670DA5066847" name="BodyInModel PK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-23 16:16:43 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>08DAB0D8-8FDE-A355-67E8-5EABC356087F</attributeRef>
+<attributeRef>45B770E5-5515-F3DB-7AE5-EF0F9356958B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -14,4 +14,61 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ToyotaRegionID" id="4ABBCDDE-8933-E985-AB06-A333907F4C2C">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:49:41 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RegionName" id="2686A289-CAAF-9A28-4898-B03BDB811DA7">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:49:58 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="90689CE6-7D35-A98D-4072-3922B40A41EF" name="ToyotaRegion PK">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:49:55 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4ABBCDDE-8933-E985-AB06-A333907F4C2C</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="02158002-7F1B-402A-3672-944EA50D6D66" name="Key_2">
+<createdBy>pawel</createdBy>
+<createdTime>2023-11-06 04:50:48 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="false"/>
+</engineerTo>
+<newElementsIDs>2686A289-CAAF-9A28-4898-B03BDB811DA7</newElementsIDs>
+<usedAttributes>
+<attributeRef>2686A289-CAAF-9A28-4898-B03BDB811DA7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
