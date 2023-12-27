@@ -17,7 +17,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -33,7 +33,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -55,26 +55,26 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="10C74112-758B-924E-37C8-5D6CD61B7193" name="ModelColors_PK">
-<createdBy>Bohdan</createdBy>
-<createdTime>2023-11-06 15:28:10 UTC</createdTime>
-<ownerDesignName>Project</ownerDesignName>
-<pk>true</pk>
-<indexState>Primary Constraint</indexState>
-<indexColumnUsage>
-<colUsage columnID="F78FCE7B-5CBB-46C7-FDF9-235848BA5AD8"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="5325C68A-E333-5977-A949-BB00C1125745" name="ModelColors_CarModel_ModelID_Colour_ColourID_UN">
+<ind_PK_UK id="5325C68A-E333-5977-A949-BB00C1125745" name="ModelColors_PKv2">
 <createdBy>Grzegorz</createdBy>
 <createdTime>2023-12-23 17:48:43 UTC</createdTime>
 <generatorID>FA8FA089-AF55-6907-F2BE-F59713A21E0D</generatorID>
 <ownerDesignName>Project</ownerDesignName>
-<indexState>Unique Constraint</indexState>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="28E2AD67-71A7-007B-2B85-CF512213BBB5"/>
 <colUsage columnID="03971D0A-F7EB-2D55-303A-90D9B0647065"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10C74112-758B-924E-37C8-5D6CD61B7193" name="ModelColors_PK">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 15:28:10 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="F78FCE7B-5CBB-46C7-FDF9-235848BA5AD8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="8965420A-43C7-80DC-C6D6-AE18D1D19213" name="ModelColors_CarModel_FK">

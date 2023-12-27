@@ -28,7 +28,7 @@
 <dataTypePrecision>20</dataTypePrecision>
 <ownDataTypeParameters>,20,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="InstytutionID" id="FB66EE99-D4EB-57A1-9737-124252CEE53B">
+<Attribute name="InstID" id="FB66EE99-D4EB-57A1-9737-124252CEE53B">
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 04:05:45 UTC</createdTime>
 <generatorID>1BD0DA33-C69F-4CF3-1725-2A918436E46E</generatorID>
@@ -42,7 +42,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DateOfProduction" id="6FCDBE3B-9994-EF96-00C8-DAFF7363CF22">
 <createdBy>pawel</createdBy>
@@ -122,8 +122,9 @@
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 04:57:35 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

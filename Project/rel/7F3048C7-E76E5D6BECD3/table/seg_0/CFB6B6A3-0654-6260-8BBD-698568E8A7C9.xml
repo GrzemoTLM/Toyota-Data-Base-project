@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CFB6B6A3-0654-6260-8BBD-698568E8A7C9" name="InstalledGadgetsList">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CFB6B6A3-0654-6260-8BBD-698568E8A7C9" name="GadgetsList">
 <createdBy>Bohdan</createdBy>
 <createdTime>2023-11-06 13:18:01 UTC</createdTime>
 <generatorID>01360FFB-2924-3FE7-34D5-0823B5508988</generatorID>
@@ -41,14 +41,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="3EE2B47E-1934-4757-BCC0-1F2B5B9F445F" referredColumn="34A57C0E-2BA1-310C-B428-6DB2840A5DAE"/>
 </associations>
 </Column>
-<Column name="Car_CarID2" id="35BF917C-22BA-556B-47BB-A22BAD0003F6">
+<Column name="Car_CarID" id="35BF917C-22BA-556B-47BB-A22BAD0003F6">
 <createdBy>Grzegorz</createdBy>
 <createdTime>2023-12-23 17:48:43 UTC</createdTime>
 <generatorID>02F60B15-AED8-32A7-19EE-EECE95281681</generatorID>
@@ -57,7 +57,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -89,7 +89,7 @@
 <colUsage columnID="28CAC5DC-E11E-5579-A80E-DE9E30DC8F91"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="ECDA8DFF-FDA4-BCA4-092C-7AE600537310" name="InstalledGadgetsList_Car_FK">
+<ind_PK_UK id="ECDA8DFF-FDA4-BCA4-092C-7AE600537310" name="GadgetsList_Car_FK">
 <createdBy>Grzegorz</createdBy>
 <createdTime>2023-12-23 17:48:43 UTC</createdTime>
 <generatorID>45DBFE96-AC36-3425-7F13-4931CAD380A1</generatorID>
@@ -100,7 +100,7 @@
 <colUsage columnID="35BF917C-22BA-556B-47BB-A22BAD0003F6"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="21D3EC9E-0135-F296-3A9D-52975AA8A4AB" name="InstalledGadgetsList_Gadgets&amp;Facilities_FK">
+<ind_PK_UK id="21D3EC9E-0135-F296-3A9D-52975AA8A4AB" name="GadgetsList_Gadgets&amp;Facilities_FK">
 <createdBy>Grzegorz</createdBy>
 <createdTime>2023-12-23 17:48:43 UTC</createdTime>
 <generatorID>93F3DE03-29B0-333D-152D-4EC64D677E3E</generatorID>

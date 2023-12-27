@@ -20,7 +20,7 @@
 <ownDataTypeParameters>,20,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Toyota-Instytution_InstytutionID" id="5CEB958A-28E0-2181-BFEF-E2683649FC66">
+<Column name="Instytution_InstID" id="5CEB958A-28E0-2181-BFEF-E2683649FC66">
 <createdBy>Bohdan</createdBy>
 <createdTime>2023-11-06 13:18:01 UTC</createdTime>
 <generatorID>FB66EE99-D4EB-57A1-9737-124252CEE53B</generatorID>
@@ -30,7 +30,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -70,7 +70,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -124,7 +124,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -140,7 +140,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -156,7 +156,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -199,7 +199,7 @@
 <colUsage columnID="A0DCAD81-0920-2CBD-0117-803A2B5BF859"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CE2646A3-6F41-CDB1-5BA1-5D6D91D295C3" name="Car_Toyota-Instytution_FK">
+<ind_PK_UK id="CE2646A3-6F41-CDB1-5BA1-5D6D91D295C3" name="Car_Instytution_FK">
 <createdBy>Bohdan</createdBy>
 <createdTime>2023-11-06 13:18:01 UTC</createdTime>
 <generatorID>1BD0DA33-C69F-4CF3-1725-2A918436E46E</generatorID>

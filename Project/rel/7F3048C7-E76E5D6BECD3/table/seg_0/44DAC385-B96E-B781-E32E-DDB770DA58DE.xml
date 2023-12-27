@@ -59,25 +59,25 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="CDE85D1A-4784-380B-7BD1-D9D5FC705EB1" name="GearboxType_PK">
-<createdBy>Bohdan</createdBy>
-<createdTime>2023-11-06 15:28:10 UTC</createdTime>
-<ownerDesignName>Project</ownerDesignName>
-<pk>true</pk>
-<indexState>Primary Constraint</indexState>
-<indexColumnUsage>
-<colUsage columnID="47BCD360-8774-A12A-90A0-48A0E9026441"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="99397440-4191-69DB-6C3F-3A21FA0FE5A1" name="GearboxType_GearBoxID_UN">
+<ind_PK_UK id="99397440-4191-69DB-6C3F-3A21FA0FE5A1" name="GearboxType_PKv2">
 <createdBy>Grzegorz</createdBy>
 <createdTime>2023-12-23 17:48:43 UTC</createdTime>
 <generatorID>CA9FC735-8EEB-070E-C661-85B9916EC09C</generatorID>
 <ownerDesignName>Project</ownerDesignName>
-<indexState>Unique Constraint</indexState>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="58AB7568-2D00-EABA-C0E7-B569831B8C61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDE85D1A-4784-380B-7BD1-D9D5FC705EB1" name="GearboxType_PK">
+<createdBy>Bohdan</createdBy>
+<createdTime>2023-11-06 15:28:10 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="47BCD360-8774-A12A-90A0-48A0E9026441"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

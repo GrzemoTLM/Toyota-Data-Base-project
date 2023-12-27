@@ -49,6 +49,19 @@
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="PostCode" id="87FFF1FA-9170-4624-4353-3244492543B9">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-27 14:17:01 UTC</createdTime>
+<generatorID>89838AE9-4788-B729-E0C1-D5AEBAF42424</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="42E94AC9-92D3-3424-0BDC-543555D130AA" name="City_PK">

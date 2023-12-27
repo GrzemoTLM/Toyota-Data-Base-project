@@ -41,7 +41,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="EnginePower" id="17577D86-04C1-CB7F-CBF1-47390D9D0208">
 <createdBy>pawel</createdBy>
@@ -74,8 +74,9 @@
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 05:08:23 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -69,7 +69,7 @@
 <dataTypePrecision>20</dataTypePrecision>
 <ownDataTypeParameters>,20,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="InstytutionID" id="172EED80-C1A0-2D03-0F30-8B2741D09854">
+<Attribute name="InstID" id="172EED80-C1A0-2D03-0F30-8B2741D09854">
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 04:06:35 UTC</createdTime>
 <generatorID>AA897B87-70B5-B6BF-CF0B-37FE8EF242E1</generatorID>
@@ -83,7 +83,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -91,8 +91,9 @@
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 03:11:21 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

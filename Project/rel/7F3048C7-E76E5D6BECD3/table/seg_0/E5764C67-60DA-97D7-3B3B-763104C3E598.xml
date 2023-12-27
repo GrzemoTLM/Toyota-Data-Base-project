@@ -90,7 +90,7 @@
 <colAssociation fkAssociation="6397867F-17AD-6EB4-92E6-D3FA22102D65" referredColumn="1A0858BE-00DA-6D12-5B6C-A178DE31B6EA"/>
 </associations>
 </Column>
-<Column name="Toyota-Instytution_InstytutionID" id="90D45DB4-4CE6-E672-184C-01DA3E11B85B">
+<Column name="Instytution_InstID" id="90D45DB4-4CE6-E672-184C-01DA3E11B85B">
 <createdBy>Bohdan</createdBy>
 <createdTime>2023-11-06 13:18:01 UTC</createdTime>
 <generatorID>172EED80-C1A0-2D03-0F30-8B2741D09854</generatorID>
@@ -100,7 +100,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -154,7 +154,7 @@
 <colUsage columnID="41013A82-A926-8AAF-694F-7E7F2CAAF4FD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3C23ED40-B8C4-A9F4-0509-48264F847130" name="Employee_Toyota-Instytution_FK">
+<ind_PK_UK id="3C23ED40-B8C4-A9F4-0509-48264F847130" name="Employee_Instytution_FK">
 <createdBy>Bohdan</createdBy>
 <createdTime>2023-11-06 13:18:01 UTC</createdTime>
 <generatorID>AA897B87-70B5-B6BF-CF0B-37FE8EF242E1</generatorID>

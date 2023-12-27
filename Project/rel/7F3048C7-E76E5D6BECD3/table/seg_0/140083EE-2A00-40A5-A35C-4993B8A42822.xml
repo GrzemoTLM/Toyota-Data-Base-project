@@ -20,7 +20,7 @@
 <ownDataTypeParameters>,20,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Toyota-Instytution_InstytutionID" id="7942C548-051C-EADE-D706-710A827E85CA">
+<Column name="Instytution_InstID" id="7942C548-051C-EADE-D706-710A827E85CA">
 <createdBy>Bohdan</createdBy>
 <createdTime>2023-11-06 13:18:01 UTC</createdTime>
 <generatorID>B366DCB5-FFEE-721F-3DF5-1DCDD7CA6EF6</generatorID>
@@ -30,7 +30,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -47,7 +47,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -138,12 +138,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="A76309EF-0AAC-51E8-ED0B-3977F05AE932" referredColumn="59F42012-B676-D3C0-01E2-8A0E6CD60E4F"/>
-</associations>
 </Column>
 <Column name="PartType_PartTypeID" id="15DF6F8F-B841-46BF-1FE6-C22A530AE2E1">
 <createdBy>Grzegorz</createdBy>
@@ -154,7 +151,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -208,7 +205,7 @@
 <colUsage columnID="F16CF78B-DFBB-F55B-3A25-CAAE5CCF1534"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9DC67980-9F3F-883F-5068-E091DF1D2F21" name="Part_Toyota-Instytution_FK">
+<ind_PK_UK id="9DC67980-9F3F-883F-5068-E091DF1D2F21" name="Part_Instytution_FK">
 <createdBy>Bohdan</createdBy>
 <createdTime>2023-11-06 13:18:01 UTC</createdTime>
 <generatorID>8925D8C7-8934-13EE-8F77-F75AA0E3D862</generatorID>
@@ -272,17 +269,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="55BE91EC-0693-7851-2962-83C647FA6CD4"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="6504E6D8-257E-1234-73AF-10D727C24ADC" name="Part_PartOrderDeatils_FK">
-<createdBy>Grzegorz</createdBy>
-<createdTime>2023-12-23 17:48:43 UTC</createdTime>
-<generatorID>B85D6457-7322-DCDE-DC77-EFF470AE94BD</generatorID>
-<ownerDesignName>Project</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="580816F1-0330-801B-6D90-A49D8ADD5AB3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="1699AABA-D8FE-C637-1894-5CBA1214AF33" name="Part_PartType_FK">

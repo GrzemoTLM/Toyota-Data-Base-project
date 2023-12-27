@@ -9,7 +9,7 @@
 <referredTableID>5BA6C506-4FFB-C9A8-A839-98FAC3C1FCA1</referredTableID>
 <keyObject>CA8AC015-3D58-CA1B-6D99-2EF16832DC13</keyObject>
 <referredKeyID>CA8AC015-3D58-CA1B-6D99-2EF16832DC13</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>PartTypeID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

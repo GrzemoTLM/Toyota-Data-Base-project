@@ -29,12 +29,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="563D4179-C4DD-AD96-2539-FFAACDA65B31" referredColumn="8338F4AB-8F22-5CB5-62E7-BC44462836DB"/>
-</associations>
 </Column>
 <Column name="Quantity" id="30924698-45DE-FE49-449F-0C0703D46D8D">
 <createdBy>Grzegorz</createdBy>
@@ -57,7 +54,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -98,17 +95,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="18F617C1-E7A3-B5C5-0667-7B565B0F2EE8"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="367BACB5-75A2-81CD-87B1-0F06AF3FBC84" name="PartOrderDeatils_Part_FK">
-<createdBy>Grzegorz</createdBy>
-<createdTime>2023-12-23 17:48:43 UTC</createdTime>
-<generatorID>B85D6457-7322-DCDE-DC77-EFF470AE94BD</generatorID>
-<ownerDesignName>Project</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="003CAE50-DCB2-56CE-879C-1DF6D546B09B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

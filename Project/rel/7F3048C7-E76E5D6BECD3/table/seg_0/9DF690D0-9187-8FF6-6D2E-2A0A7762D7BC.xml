@@ -47,5 +47,16 @@
 <colUsage columnID="CB62D81E-9BF1-6EC7-AB40-A386AE53FBB0"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="27098015-7FFE-9BC8-AE39-AE394ACB742F" name="OrderStatus_Status_UN">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-27 14:24:09 UTC</createdTime>
+<generatorID>E44FD6F4-6A2E-DCEA-772C-0CEC61128A2C</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88886B74-8015-A666-D599-4EAAD79002B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
 </Table>

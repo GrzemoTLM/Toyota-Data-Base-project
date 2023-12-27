@@ -17,7 +17,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -33,7 +33,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -49,7 +49,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -71,7 +71,7 @@
 <colUsage columnID="BD749B55-5F92-3628-3284-F81D9759B664"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3F535A85-4D15-C8B6-0C1C-D301CCBDC9D2" name="PartsInModel_PartTypeID_CarModel_ModelID_UN">
+<ind_PK_UK id="3F535A85-4D15-C8B6-0C1C-D301CCBDC9D2" name="PartsInModel_PartType_PartTypeID_CarModel_ModelID_UN">
 <createdBy>Grzegorz</createdBy>
 <createdTime>2023-12-23 17:48:43 UTC</createdTime>
 <generatorID>A147B118-72BB-9CC4-F9C7-7EFB6330CF25</generatorID>

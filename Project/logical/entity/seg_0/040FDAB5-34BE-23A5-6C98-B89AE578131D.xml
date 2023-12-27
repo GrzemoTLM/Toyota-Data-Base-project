@@ -28,7 +28,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="BodyID" id="08DAB0D8-8FDE-A355-67E8-5EABC356087F">
 <createdBy>Grzegorz</createdBy>
@@ -51,8 +51,9 @@
 <createdBy>Grzegorz</createdBy>
 <createdTime>2023-12-23 16:16:43 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

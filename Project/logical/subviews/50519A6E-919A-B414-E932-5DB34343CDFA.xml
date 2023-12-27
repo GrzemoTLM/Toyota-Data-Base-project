@@ -12,7 +12,7 @@
 <showGrid>false</showGrid>
 <diagramColor>-1</diagramColor>
 <display>false</display>
-<notation>1</notation>
+<notation>0</notation>
 <hideDetailsOnZoomOut>false</hideDetailsOnZoomOut>
 <objectViews>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="01360FFB-2924-3FE7-34D5-0823B5508988" otype="Entity" vid="F3D1AC41-1EB2-45B1-8EDF-86268DDF2A5C">

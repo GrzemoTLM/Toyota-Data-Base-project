@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="62AEF973-BCC1-C164-1C74-F77619085CE0" containerWithKeyObject="1A95B444-6A07-77ED-1FD5-0905C96ED751" localFKIndex="5DC9487A-B28E-07C5-FC36-EE0CE9572615" name="Delivery_Delivery_type_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="62AEF973-BCC1-C164-1C74-F77619085CE0" containerWithKeyObject="1A95B444-6A07-77ED-1FD5-0905C96ED751" localFKIndex="5DC9487A-B28E-07C5-FC36-EE0CE9572615" name="Delivery_DeliveryType_FK">
 <createdBy>Bohdan</createdBy>
 <createdTime>2023-11-06 13:18:01 UTC</createdTime>
 <generatorID>C7B8DC42-1905-92A9-C412-CC7691633FDB</generatorID>
 <ownerDesignName>Project</ownerDesignName>
-<referredTableLongName>Delivery_type</referredTableLongName>
+<referredTableLongName>DeliveryType</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>6013E0E4-9D32-BBA4-4378-24FD0C05901F</referredTableID>
 <keyObject>6D74F42F-1946-7A0C-2667-5CD0A4BB0E4A</keyObject>

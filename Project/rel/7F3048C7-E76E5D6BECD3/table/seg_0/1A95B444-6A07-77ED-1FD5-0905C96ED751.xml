@@ -29,14 +29,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="AAE18747-2B2A-1C16-C195-C3BAA7551A58" referredColumn="DDC0A83A-E650-D8BB-A7AC-319B523AE088"/>
-</associations>
 </Column>
-<Column name="Delivery_type_DTypeID" id="F27B6EF5-0E8D-7152-EF36-BF47A12D9DC1">
+<Column name="DeliveryType_DTypeID" id="F27B6EF5-0E8D-7152-EF36-BF47A12D9DC1">
 <createdBy>Bohdan</createdBy>
 <createdTime>2023-11-06 13:18:01 UTC</createdTime>
 <generatorID>8740B0D1-C5DD-016A-63A0-87C4739DFE48</generatorID>
@@ -45,7 +42,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -61,12 +58,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="8E943D54-8786-06CE-92DB-05F769131C73" referredColumn="D47AE96A-E661-5D9B-9823-F04BF9780CBE"/>
-</associations>
 </Column>
 <Column name="DeliveryDate" id="FB6402DF-CA8A-A4AB-7112-61B92FC35E7B">
 <createdBy>Grzegorz</createdBy>
@@ -116,7 +110,7 @@
 <colUsage columnID="79CE225B-A170-8771-23E5-1B23CBB8E6F1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5DC9487A-B28E-07C5-FC36-EE0CE9572615" name="Delivery_Delivery_type_FK">
+<ind_PK_UK id="5DC9487A-B28E-07C5-FC36-EE0CE9572615" name="Delivery_DeliveryType_FK">
 <createdBy>Bohdan</createdBy>
 <createdTime>2023-11-06 13:18:01 UTC</createdTime>
 <generatorID>C7B8DC42-1905-92A9-C412-CC7691633FDB</generatorID>
@@ -125,28 +119,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F27B6EF5-0E8D-7152-EF36-BF47A12D9DC1"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="2A65EEAA-65C0-9ECB-3BD9-1C15D8318F2C" name="Delivery_PartOrder_FK">
-<createdBy>Grzegorz</createdBy>
-<createdTime>2023-12-23 17:48:43 UTC</createdTime>
-<generatorID>6081BA16-540B-4C0C-9F9C-9D502EAB9171</generatorID>
-<ownerDesignName>Project</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="79CE225B-A170-8771-23E5-1B23CBB8E6F1"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="A6045192-C552-B9A4-5D85-18CE344400AE" name="Delivery_CarOrder_FK">
-<createdBy>Grzegorz</createdBy>
-<createdTime>2023-12-23 17:48:43 UTC</createdTime>
-<generatorID>5119ED49-A5A4-FF2D-D793-C92CD83C41D6</generatorID>
-<ownerDesignName>Project</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="3A60AB67-C969-9967-7FE7-AEA1AA3B5923"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

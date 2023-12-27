@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DC8CF531-2A55-C199-85AD-C28D8A9046A8" containerWithKeyObject="5FEB4C1E-4B25-9A8C-9174-5597389B7619" localFKIndex="6C52BD89-D1C7-55FA-036E-CCB00845B8FB" name="CarOrder_Toyota-Instytution_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DC8CF531-2A55-C199-85AD-C28D8A9046A8" containerWithKeyObject="5FEB4C1E-4B25-9A8C-9174-5597389B7619" localFKIndex="6C52BD89-D1C7-55FA-036E-CCB00845B8FB" name="CarOrder_Instytution_FK">
 <createdBy>Bohdan</createdBy>
 <createdTime>2023-11-06 13:18:01 UTC</createdTime>
 <generatorID>D5589418-10A1-6C92-AB95-665F89AEBF81</generatorID>
 <ownerDesignName>Project</ownerDesignName>
-<referredTableLongName>Toyota-Instytution</referredTableLongName>
+<referredTableLongName>Instytution</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>AA61BA89-34F1-3DCC-61F4-B1C957614ACB</referredTableID>
 <keyObject>915C7A7E-4D8E-7731-DB19-F3EDFB7796A2</keyObject>
 <referredKeyID>915C7A7E-4D8E-7731-DB19-F3EDFB7796A2</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>InstytutionID</refColNames>
+<refColNames>InstID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

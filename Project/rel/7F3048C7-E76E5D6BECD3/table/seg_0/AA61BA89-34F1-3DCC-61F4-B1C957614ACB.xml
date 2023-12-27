@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA61BA89-34F1-3DCC-61F4-B1C957614ACB" name="Toyota-Instytution">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA61BA89-34F1-3DCC-61F4-B1C957614ACB" name="Instytution">
 <createdBy>Bohdan</createdBy>
 <createdTime>2023-11-06 13:18:01 UTC</createdTime>
 <generatorID>DE009C91-18C4-B621-47C2-0587C0BAD376</generatorID>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="InstytutionID" id="E4B77FB0-8917-7C53-FB0D-D2388A425102">
+<Column name="InstID" id="E4B77FB0-8917-7C53-FB0D-D2388A425102">
 <createdBy>Bohdan</createdBy>
 <createdTime>2023-11-06 13:18:01 UTC</createdTime>
 <generatorID>CE2D1454-8B24-ABEF-E785-801E43ED8718</generatorID>
@@ -29,7 +29,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -45,14 +45,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="5C85E448-6E83-A4B7-6CFB-982DD5F18EF3" referredColumn="91259657-0776-44CF-2F4A-1FC7A62A32B7"/>
 </associations>
 </Column>
-<Column name="NameOfInstytution" id="6B5B3C5A-E21E-B02E-CF73-187EC2657C7B">
+<Column name="InstName" id="6B5B3C5A-E21E-B02E-CF73-187EC2657C7B">
 <createdBy>Bohdan</createdBy>
 <createdTime>2023-11-06 13:18:01 UTC</createdTime>
 <generatorID>3133471A-4225-2DC2-4E66-42397F2EB475</generatorID>
@@ -79,7 +79,7 @@
 <colUsage columnID="E4B77FB0-8917-7C53-FB0D-D2388A425102"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C74347B0-279A-4415-1D80-721486041AA2" name="Toyota-Instytution_City_FK">
+<ind_PK_UK id="C74347B0-279A-4415-1D80-721486041AA2" name="Instytution_City_FK">
 <createdBy>Bohdan</createdBy>
 <createdTime>2023-11-06 13:18:01 UTC</createdTime>
 <generatorID>61FA6EB8-6C45-9FDE-E610-CD864A601CC4</generatorID>
@@ -90,7 +90,7 @@
 <colUsage columnID="F7979C5B-247C-CDC0-A11E-51169DFC0AF5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="921A0FBB-A494-1B44-F52F-26990BA79187" name="Toyota-Instytution_InstytutionType_FK">
+<ind_PK_UK id="921A0FBB-A494-1B44-F52F-26990BA79187" name="Instytution_InstytutionType_FK">
 <createdBy>Bohdan</createdBy>
 <createdTime>2023-11-06 13:18:01 UTC</createdTime>
 <generatorID>609621F9-E589-699C-E4AD-B184EB490B37</generatorID>

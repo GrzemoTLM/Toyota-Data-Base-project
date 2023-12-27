@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DE009C91-18C4-B621-47C2-0587C0BAD376" name="Toyota-Instytution">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DE009C91-18C4-B621-47C2-0587C0BAD376" name="Instytution">
 <createdBy>pawel</createdBy>
 <createdTime>2023-10-25 20:39:35 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="InstytutionID" id="CE2D1454-8B24-ABEF-E785-801E43ED8718">
+<Attribute name="InstID" id="CE2D1454-8B24-ABEF-E785-801E43ED8718">
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 04:05:35 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
@@ -41,7 +41,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CityID" id="5BADC39D-D541-8FFE-FB1C-4C3ECA2C2722">
 <createdBy>pawel</createdBy>
@@ -58,7 +58,7 @@
 <dataTypePrecision>20</dataTypePrecision>
 <ownDataTypeParameters>,20,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NameOfInstytution" id="3133471A-4225-2DC2-4E66-42397F2EB475">
+<Attribute name="InstName" id="3133471A-4225-2DC2-4E66-42397F2EB475">
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 04:54:10 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
@@ -78,8 +78,9 @@
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 04:05:44 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

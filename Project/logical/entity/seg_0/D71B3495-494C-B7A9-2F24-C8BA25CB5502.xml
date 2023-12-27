@@ -44,7 +44,7 @@
 <dataTypePrecision>20</dataTypePrecision>
 <ownDataTypeParameters>,20,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="InstytutionID" id="C0CEDE59-2A01-7DEE-E81C-90F94B397CF3">
+<Attribute name="InstID" id="C0CEDE59-2A01-7DEE-E81C-90F94B397CF3">
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 04:05:45 UTC</createdTime>
 <generatorID>D5589418-10A1-6C92-AB95-665F89AEBF81</generatorID>
@@ -92,8 +92,9 @@
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 01:13:20 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
