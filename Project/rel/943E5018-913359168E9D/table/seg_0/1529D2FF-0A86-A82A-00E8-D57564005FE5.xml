@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1529D2FF-0A86-A82A-00E8-D57564005FE5" name="Part">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-28 13:37:59 UTC</createdTime>
+<generatorID>CC27DFCA-DDE2-7D50-5821-764F583D778A</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PartID" id="8D13FD78-74CA-B314-A32F-909516A57DB3">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-28 13:37:59 UTC</createdTime>
+<generatorID>401EE7C5-E00E-3081-24B6-356805B96CDF</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Instytution_InstID" id="79CC9793-BFDF-F4CA-EC77-C2078B1916C9">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-28 13:37:59 UTC</createdTime>
+<generatorID>B366DCB5-FFEE-721F-3DF5-1DCDD7CA6EF6</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9ABEF87-73A0-18BF-75A3-0CBAA753C4D9" referredColumn="50291374-D10E-6063-FB1F-F700ACC029B3"/>
+</associations>
+</Column>
+<Column name="PartOrderDeatils_PODID" id="79A07AD3-DA6A-EA6A-8302-F8C7286401D8">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-28 13:37:59 UTC</createdTime>
+<generatorID>FAD60B8C-1ECD-AFD3-8BAB-C7BC22445511</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F6BD041-3956-BFF7-5F50-7EFA4830D027" referredColumn="208CE1D9-41F8-FE5A-F7EF-F5A3E5BEC970"/>
+</associations>
+</Column>
+<Column name="PartType_PtypeID" id="45326D1B-4D6D-EC0E-FAD7-349AD2F67630">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-28 13:37:59 UTC</createdTime>
+<generatorID>8980E706-3E7C-A204-7D4F-D31F6B06D765</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F99D6064-CC11-C8B4-7CD2-2911BA4D9FAC" referredColumn="117CDAA9-B4CB-6CC2-6F67-185B91AEDCEF"/>
+</associations>
+</Column>
+<Column name="DateOfProduction" id="228924B1-4A31-7BF0-B98D-88F2839FBB68">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-28 13:37:59 UTC</createdTime>
+<generatorID>64FC50FB-C0BC-2A04-4D1E-0344B0BA582B</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67719153-AB56-9BD8-C6DB-062A1FFADDEA" name="Part_PK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-28 13:37:59 UTC</createdTime>
+<generatorID>6D463005-9E55-A7B0-EFE4-0C99E6F1F3E9</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D13FD78-74CA-B314-A32F-909516A57DB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="874DAF77-3B47-EBE8-D23D-C6D1ACD40186" name="Part__IDX">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-28 13:37:59 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B85D6457-7322-DCDE-DC77-EFF470AE94BD</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="79A07AD3-DA6A-EA6A-8302-F8C7286401D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34E23ADA-A064-ABEA-E4D4-A31AA5DD0DFD" name="Part_Instytution_FK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-28 13:37:59 UTC</createdTime>
+<generatorID>8925D8C7-8934-13EE-8F77-F75AA0E3D862</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79CC9793-BFDF-F4CA-EC77-C2078B1916C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9AFD87CD-C041-5887-90E8-534F78592FF2" name="Part_PartOrderDeatils_FK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-28 13:37:59 UTC</createdTime>
+<generatorID>B85D6457-7322-DCDE-DC77-EFF470AE94BD</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79A07AD3-DA6A-EA6A-8302-F8C7286401D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="084EE57E-8D0F-65FF-DF5F-F73EA257CDBB" name="Part_PartType_FK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-28 13:37:59 UTC</createdTime>
+<generatorID>33D34BEB-1912-06CE-85D7-004E2BE8C7BC</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45326D1B-4D6D-EC0E-FAD7-349AD2F67630"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

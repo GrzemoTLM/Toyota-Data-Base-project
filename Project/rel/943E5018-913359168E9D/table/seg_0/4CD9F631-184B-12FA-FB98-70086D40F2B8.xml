@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4CD9F631-184B-12FA-FB98-70086D40F2B8" name="ToyotaRegion">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-28 13:37:59 UTC</createdTime>
+<generatorID>E0F8433C-FEBB-56ED-09FF-2F06579E7CA3</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ToyotaRegionID" id="0C5E6131-AA4F-5923-6D0A-E3F5B3F38E41">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-28 13:37:59 UTC</createdTime>
+<generatorID>4ABBCDDE-8933-E985-AB06-A333907F4C2C</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RegionName" id="501023BD-17E4-EED4-2767-DBF6F544E7C8">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-28 13:37:59 UTC</createdTime>
+<generatorID>2686A289-CAAF-9A28-4898-B03BDB811DA7</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="559F0D1B-6BFD-4D24-3C97-B1FDB52277E0" name="ToyotaRegion_PK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-28 13:37:59 UTC</createdTime>
+<generatorID>90689CE6-7D35-A98D-4072-3922B40A41EF</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C5E6131-AA4F-5923-6D0A-E3F5B3F38E41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68514BE2-90DD-0DA6-7EB4-F943F5B12651" name="ToyotaRegion_RegionName_UN">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-28 13:37:59 UTC</createdTime>
+<generatorID>02158002-7F1B-402A-3672-944EA50D6D66</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="501023BD-17E4-EED4-2767-DBF6F544E7C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

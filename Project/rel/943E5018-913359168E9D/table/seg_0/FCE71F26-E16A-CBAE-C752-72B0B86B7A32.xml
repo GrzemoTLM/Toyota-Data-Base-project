@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCE71F26-E16A-CBAE-C752-72B0B86B7A32" name="CarOrderDetails">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-28 13:37:59 UTC</createdTime>
+<generatorID>2E54E63A-7EE8-430F-E756-78335F9DB6A5</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OrderRecordID" id="B1B973AB-B42B-50F6-8F6B-05B256EC3E67">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-28 13:37:59 UTC</createdTime>
+<generatorID>41295289-839B-72CE-1254-25894D45B65E</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quantity" id="F697C1BE-4161-3FF9-0EC0-98136126AE91">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-28 13:37:59 UTC</createdTime>
+<generatorID>60140246-1B5F-898B-19AF-BD7E66726042</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CarOrder_OrderID" id="108EFA4B-B26A-78A9-1793-2023A297487A">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-28 13:37:59 UTC</createdTime>
+<generatorID>738F2E75-DDF4-82FD-8D2B-0EA178660B07</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BFB09CF1-9697-6E6E-DB0E-EB3334290289" referredColumn="E462481D-C746-4659-2081-1FF2BF311ABA"/>
+</associations>
+</Column>
+<Column name="Car_CarID" id="49179341-61C5-2F59-92D4-701702F425DE">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-28 13:37:59 UTC</createdTime>
+<generatorID>CE8A7AF2-49F3-721B-2726-66844638218C</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13321FB2-8D93-854A-86ED-361EB2ACA172" referredColumn="ED3EE71D-408C-685A-2B30-D2C4F1DC4E71"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BBBC2A28-32B8-2906-7A78-D8D3B727B772" name="CarOrderDetails_PK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-28 13:37:59 UTC</createdTime>
+<generatorID>975675AE-5C56-009B-B973-8CA1A40C1325</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1B973AB-B42B-50F6-8F6B-05B256EC3E67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71A67AE1-D698-EFDC-E33D-0B1A72930028" name="CarOrderDetails__IDX">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-28 13:37:59 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>AF03354D-240E-BE6D-D0F0-29CFD5EFD0E7</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="49179341-61C5-2F59-92D4-701702F425DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E6E0F1D-B99F-C104-83C3-229F1C1E6587" name="CarOrderDetails_Car_FK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-28 13:37:59 UTC</createdTime>
+<generatorID>AF03354D-240E-BE6D-D0F0-29CFD5EFD0E7</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49179341-61C5-2F59-92D4-701702F425DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C323AB55-A1BB-1244-C977-5174E195CCD9" name="CarOrderDetails_CarOrder_FK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-28 13:37:59 UTC</createdTime>
+<generatorID>BFCC1A7F-CDE6-F0D1-7ABB-39D72EA7E6D9</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="108EFA4B-B26A-78A9-1793-2023A297487A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -4,7 +4,7 @@
 <createdTime>2023-12-23 00:09:04 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,12 +15,12 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="PartTypeID" id="5CD1219A-F2AD-B372-6769-363D587D1D47">
+<Attribute name="PtypeID" id="5CD1219A-F2AD-B372-6769-363D587D1D47">
 <createdBy>Grzegorz</createdBy>
 <createdTime>2023-12-23 11:40:21 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -28,12 +28,12 @@
 <dataTypePrecision>20</dataTypePrecision>
 <ownDataTypeParameters>,20,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PartTypeName" id="541C7AF4-614A-242B-50F6-A305FC4BDE4E">
+<Attribute name="PartType" id="541C7AF4-614A-242B-50F6-A305FC4BDE4E">
 <createdBy>Grzegorz</createdBy>
 <createdTime>2023-12-23 11:40:41 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,7 +47,7 @@
 <generatorID>BF18D660-5DBA-7B55-E278-4BA21E946CB7</generatorID>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
 <referedAttribute>01926266-6A9E-2196-A842-A6A4A9CC5845</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -62,9 +62,8 @@
 <createdBy>Grzegorz</createdBy>
 <createdTime>2023-12-23 11:40:37 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="false"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
