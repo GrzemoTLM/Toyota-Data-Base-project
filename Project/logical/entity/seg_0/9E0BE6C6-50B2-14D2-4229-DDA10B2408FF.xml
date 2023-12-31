@@ -4,7 +4,7 @@
 <createdTime>2023-11-04 16:09:24 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,39 +20,39 @@
 <createdTime>2023-11-06 03:11:07 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Name" id="864FF976-2B89-1EC9-905C-B4324D0316B1">
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 03:11:37 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Surename" id="E9ADE092-FBC0-3DDE-2DAA-6C43F599C2FA">
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 03:12:14 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PositionID" id="1B46A770-5E90-A4D7-2F7C-33C8EE477FB3">
 <createdBy>pawel</createdBy>
@@ -60,14 +60,14 @@
 <generatorID>81B1A7DF-ED3F-AFEE-B645-8186385D2B89</generatorID>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
 <referedAttribute>6076E82D-C881-4AC2-780C-9FC4F84B4A60</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="InstID" id="172EED80-C1A0-2D03-0F30-8B2741D09854">
 <createdBy>pawel</createdBy>
@@ -75,15 +75,15 @@
 <generatorID>AA897B87-70B5-B6BF-CF0B-37FE8EF242E1</generatorID>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>CE2D1454-8B24-ABEF-E785-801E43ED8718</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -91,9 +91,8 @@
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 03:11:21 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="false"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -4,7 +4,7 @@
 <createdTime>2023-10-25 21:00:48 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,20 +20,20 @@
 <createdTime>2023-11-06 05:06:29 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ColourName" id="1E401CE1-1FA8-410C-5146-6D9D60D80FD0">
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 05:06:42 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,9 +47,8 @@
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 05:06:38 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="false"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -60,9 +59,8 @@
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 05:07:07 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="false"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
 <newElementsIDs>1E401CE1-1FA8-410C-5146-6D9D60D80FD0</newElementsIDs>
 <usedAttributes>

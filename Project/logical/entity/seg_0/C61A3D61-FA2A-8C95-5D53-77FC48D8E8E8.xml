@@ -25,8 +25,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="GadgetName" id="FDF36D3D-A8AA-91EC-04B2-04E701F9C761">
 <createdBy>Grzegorz</createdBy>
@@ -38,8 +38,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -53,6 +53,18 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>D3EDFCF2-5A65-CC14-23BF-C872B3BE4332</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="ED8CB99C-70A9-85C5-0CEE-851B77ECFB0A" name="UNIQUE">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-30 18:47:35 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
+</engineerTo>
+<newElementsIDs>FDF36D3D-A8AA-91EC-04B2-04E701F9C761</newElementsIDs>
+<usedAttributes>
+<attributeRef>FDF36D3D-A8AA-91EC-04B2-04E701F9C761</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

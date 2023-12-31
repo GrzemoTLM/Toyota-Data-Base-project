@@ -4,7 +4,7 @@
 <createdTime>2023-12-22 23:44:18 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,41 +20,26 @@
 <createdTime>2023-12-23 11:28:57 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,20,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="PartID" id="F9DB3B88-4729-3C7B-EC59-31F97046C098">
-<createdBy>Grzegorz</createdBy>
-<createdTime>2023-12-22 23:47:51 UTC</createdTime>
-<generatorID>B85D6457-7322-DCDE-DC77-EFF470AE94BD</generatorID>
-<ownerDesignName>Project</ownerDesignName>
-<engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
-</engineerTo>
-<referedAttribute>401EE7C5-E00E-3081-24B6-356805B96CDF</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Quantity" id="0DE3BDA3-C462-9788-E0D7-6E71BA2F3778">
 <createdBy>Grzegorz</createdBy>
 <createdTime>2023-12-23 12:15:17 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PartOrderID" id="9B762334-4C61-FAA3-C913-25772BBDF407">
 <createdBy>Grzegorz</createdBy>
@@ -62,14 +47,29 @@
 <generatorID>0127B084-7765-D4B1-0CED-16ADCFFCDA48</generatorID>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
 <referedAttribute>7D282B01-5577-FD02-A96F-F6421BA98AA9</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PartID" id="A3958BDE-8980-DFF0-E9A0-C74D973DBF3C">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-30 16:11:18 UTC</createdTime>
+<generatorID>B85D6457-7322-DCDE-DC77-EFF470AE94BD</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
+</engineerTo>
+<referedAttribute>401EE7C5-E00E-3081-24B6-356805B96CDF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -77,9 +77,8 @@
 <createdBy>Grzegorz</createdBy>
 <createdTime>2023-12-23 11:29:14 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="false"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

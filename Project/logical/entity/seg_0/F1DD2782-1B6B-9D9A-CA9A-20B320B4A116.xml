@@ -4,7 +4,7 @@
 <createdTime>2023-10-25 20:18:08 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,13 +20,13 @@
 <createdTime>2023-11-06 04:52:17 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CountryID" id="D2B6B726-2F6D-04C2-AC91-6719BE0BEB81">
 <createdBy>pawel</createdBy>
@@ -34,23 +34,22 @@
 <generatorID>3509AF7C-73F1-B19E-4FF2-56883EAC4FDB</generatorID>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
 <referedAttribute>FD7517AB-A62D-7C93-31CD-A93F80307F36</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CityName" id="0FEAE03B-8FD6-4072-4373-75626463DAD5">
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 04:52:52 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -62,9 +61,8 @@
 <createdTime>2023-12-27 14:00:38 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -77,9 +75,8 @@
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 04:52:21 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="false"/>
+<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
