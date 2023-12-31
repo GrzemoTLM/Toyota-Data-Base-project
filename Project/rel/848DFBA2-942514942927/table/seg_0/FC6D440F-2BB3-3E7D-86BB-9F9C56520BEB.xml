@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC6D440F-2BB3-3E7D-86BB-9F9C56520BEB" name="Colour">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>F0B8AA17-69B0-02B6-BA3F-05F5208339D3</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ColourID" id="4746A1AE-30EF-CE38-5CD9-209B33784338">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>103E06E1-59DC-55CC-19DC-44EA1C3D2689</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ColourName" id="EFD12D9B-7B99-2A7E-7CD0-23A4A2D6100E">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>1E401CE1-1FA8-410C-5146-6D9D60D80FD0</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="350F8F6A-0C63-A36A-E3C5-40F841374E5F" name="Colour_PK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>4AD8ECE2-0A57-BFD3-6074-62C2A2CFF5DF</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4746A1AE-30EF-CE38-5CD9-209B33784338"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB6858AC-D35A-878B-786E-B968226B27FC" name="Colour_ColourName_UN">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>7B3A6588-3790-7CBC-8724-03003B152CCD</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFD12D9B-7B99-2A7E-7CD0-23A4A2D6100E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

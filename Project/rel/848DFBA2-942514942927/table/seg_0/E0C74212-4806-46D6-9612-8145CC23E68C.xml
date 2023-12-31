@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0C74212-4806-46D6-9612-8145CC23E68C" name="Part">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>CC27DFCA-DDE2-7D50-5821-764F583D778A</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PartID" id="53C9A000-265C-FE4E-2617-4EA8E87F2F3B">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>401EE7C5-E00E-3081-24B6-356805B96CDF</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Instytution_InstID" id="C07245AA-2A38-8F4E-F863-902370662914">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>B366DCB5-FFEE-721F-3DF5-1DCDD7CA6EF6</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF8A476F-F461-9580-FB60-BB1B92DCDAA3" referredColumn="17F586EE-BB6C-3AE8-337F-48BD7B4D0F5C"/>
+</associations>
+</Column>
+<Column name="PartType_PtypeID" id="A39F68BA-29E8-2659-F2FD-CFB3E846A624">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>8980E706-3E7C-A204-7D4F-D31F6B06D765</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1710BF5-B74C-8068-8FE2-E1E15B40F114" referredColumn="2F13D1E0-E9CF-FB27-3473-983CF8106020"/>
+</associations>
+</Column>
+<Column name="DateOfProduction" id="4EA4C278-D31E-9937-392F-4A705E6F0C79">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>64FC50FB-C0BC-2A04-4D1E-0344B0BA582B</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9845E2CA-2806-0975-0F60-DAF1395FE2AF" name="Part_PK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>6D463005-9E55-A7B0-EFE4-0C99E6F1F3E9</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53C9A000-265C-FE4E-2617-4EA8E87F2F3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8F7D071-3847-6087-FDA2-BCC234E2FB87" name="Part_Instytution_FK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>8925D8C7-8934-13EE-8F77-F75AA0E3D862</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C07245AA-2A38-8F4E-F863-902370662914"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8AFDC31-ED2C-D20A-BA86-DB15B485A5A7" name="Part_PartType_FK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>33D34BEB-1912-06CE-85D7-004E2BE8C7BC</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A39F68BA-29E8-2659-F2FD-CFB3E846A624"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

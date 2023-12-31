@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="911A963A-46C0-5E6A-A50E-08FDF5E7AF51" name="City">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>F1DD2782-1B6B-9D9A-CA9A-20B320B4A116</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CityID" id="FABEE866-577A-31CC-F704-82CFC60EF97B">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>B4251E0C-A194-8DAC-2273-3A07368A5935</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Country_CountryID" id="87897343-D5BF-0833-7696-68C5C51ADAE6">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>D2B6B726-2F6D-04C2-AC91-6719BE0BEB81</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15A0F26F-EFD7-BA6D-AF5F-F5CD5FCD2493" referredColumn="E6EEB4FD-B1EA-AAB2-C16F-277542A69220"/>
+</associations>
+</Column>
+<Column name="CityName" id="8E7BF57E-D6BB-EBC9-0C32-9E0045C56193">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>0FEAE03B-8FD6-4072-4373-75626463DAD5</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PostCode" id="55B44EB1-DEFB-325A-3009-B5C0F39DB3A3">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>89838AE9-4788-B729-E0C1-D5AEBAF42424</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F04483BA-F43D-69D9-86EE-4FD80F6C681E" name="City_PK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>0C96A892-2E4A-B601-7822-960A38306B65</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FABEE866-577A-31CC-F704-82CFC60EF97B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6504589F-0973-E1DA-C8AB-A27050717A17" name="City_Country_FK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>3509AF7C-73F1-B19E-4FF2-56883EAC4FDB</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87897343-D5BF-0833-7696-68C5C51ADAE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

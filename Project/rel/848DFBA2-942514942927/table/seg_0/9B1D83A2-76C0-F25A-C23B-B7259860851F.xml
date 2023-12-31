@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B1D83A2-76C0-F25A-C23B-B7259860851F" name="Country">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>C46D1AC7-1C77-D60A-8E6C-2B10CD7C8BB0</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CountryID" id="E6EEB4FD-B1EA-AAB2-C16F-277542A69220">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>FD7517AB-A62D-7C93-31CD-A93F80307F36</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Country" id="5C76B01A-916D-095B-99F2-40B6CD0ED4C3">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>600B0E87-D435-D7EA-56A6-8137CFCA8118</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ToyotaRegion_ToyotaRegionID" id="5788142D-8004-3447-72AE-8EECEBE35EB9">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>96D42D60-C52E-75B6-DA9D-C2244A9F1629</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8707BA13-745C-5BE2-1350-FA759FEF5CEA" referredColumn="BDB861B7-F1BD-EEB0-A0C0-1F15235D735E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E175DEBD-CE8C-FB8C-9A1E-FA0DEF22F048" name="Country_PK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>42988123-0AA0-4E6E-BC56-A8013D1CC48F</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6EEB4FD-B1EA-AAB2-C16F-277542A69220"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F59D420-78EA-B0A0-56D3-D82272C8F893" name="Country_Country_UN">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>422D9811-5B07-DF1D-9173-DFAD32D319D1</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C76B01A-916D-095B-99F2-40B6CD0ED4C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="787B2A2B-C56C-AC99-146A-07E5C03DF5BA" name="Country_ToyotaRegion_FK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>13153718-7C7E-5CEC-BF88-928F29887B2A</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5788142D-8004-3447-72AE-8EECEBE35EB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

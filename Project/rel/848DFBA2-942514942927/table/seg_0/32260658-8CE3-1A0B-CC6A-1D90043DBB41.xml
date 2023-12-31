@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32260658-8CE3-1A0B-CC6A-1D90043DBB41" name="Employee">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>9E0BE6C6-50B2-14D2-4229-DDA10B2408FF</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EmployeeID" id="5B19E2E5-0010-BD16-DFF0-B6D01915B400">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>84841ACC-C3C7-F020-9125-67582757DDD5</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="6A4AAE78-74F8-5BDF-C8F6-CC3268D595D9">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>864FF976-2B89-1EC9-905C-B4324D0316B1</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Surename" id="5D7948E8-984A-B3AE-E408-C2168B9D104B">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>E9ADE092-FBC0-3DDE-2DAA-6C43F599C2FA</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JobPosition_PositionID" id="6A19CCB9-4F82-AB73-007A-E29F895E50E5">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>1B46A770-5E90-A4D7-2F7C-33C8EE477FB3</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31CECFA1-D4D4-31F3-1628-9C259033CB75" referredColumn="416ECEF0-457B-41B7-2C0E-E7764456547C"/>
+</associations>
+</Column>
+<Column name="Instytution_InstID" id="1B311F49-7DDD-69F3-7FEB-D44C7385DDBE">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>172EED80-C1A0-2D03-0F30-8B2741D09854</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38B11185-E746-4D1B-32C3-FF7305A3AB87" referredColumn="17F586EE-BB6C-3AE8-337F-48BD7B4D0F5C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="803F9B3F-FCE4-0BBB-B0E6-A86A82CF4D41" name="Employee_PK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>92839B31-8621-BF4B-0705-997121B33211</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B19E2E5-0010-BD16-DFF0-B6D01915B400"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41190834-5923-C640-F5E8-76489045579A" name="Employee_Instytution_FK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>AA897B87-70B5-B6BF-CF0B-37FE8EF242E1</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B311F49-7DDD-69F3-7FEB-D44C7385DDBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29FB5722-E94F-64C6-97C5-08CFE095CEA8" name="Employee_JobPosition_FK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>81B1A7DF-ED3F-AFEE-B645-8186385D2B89</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A19CCB9-4F82-AB73-007A-E29F895E50E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

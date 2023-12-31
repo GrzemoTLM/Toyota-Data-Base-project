@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39432473-6F20-86CB-B8F3-3EC72CCD0DD7" name="Gadgets">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>C61A3D61-FA2A-8C95-5D53-77FC48D8E8E8</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GadgetID" id="F3176FE4-CE3A-D71B-0270-145D7DD3ECE9">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>D3EDFCF2-5A65-CC14-23BF-C872B3BE4332</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GadgetName" id="9E1E8B95-A2D2-C935-B9A3-0EE6CE8FB451">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>FDF36D3D-A8AA-91EC-04B2-04E701F9C761</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55325810-3842-FB24-CA6E-DF25C3A8FC89" name="Gadgets_PK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>EAFCFE06-096F-9B7F-CE00-9C2C09A0893B</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3176FE4-CE3A-D71B-0270-145D7DD3ECE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E0F644B-F9A9-D76B-12B6-A806382CB0A7" name="Gadgets_GadgetName_UN">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>ED8CB99C-70A9-85C5-0CEE-851B77ECFB0A</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E1E8B95-A2D2-C935-B9A3-0EE6CE8FB451"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

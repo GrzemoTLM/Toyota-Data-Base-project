@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="928E13A0-E719-66F5-A860-ECF34AF76140" name="BodyInModel">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>040FDAB5-34BE-23A5-6C98-B89AE578131D</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CarModel_ModelID" id="C09794B4-5EC8-F009-B317-8A0CEA611624">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>45B770E5-5515-F3DB-7AE5-EF0F9356958B</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BB08494-CBF9-A4FE-4B6E-6D9BA3C047E3" referredColumn="F301792C-AE00-0122-0314-36D4EAC7A26B"/>
+</associations>
+</Column>
+<Column name="CarBody_BodyID" id="43194CBC-FD83-0774-5B29-BB4965B05D64">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>08DAB0D8-8FDE-A355-67E8-5EABC356087F</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13C3FD23-C928-D680-7496-32A6472C932E" referredColumn="A6D7FB4A-B037-4214-8C58-299EB37CF99A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93901434-4BE9-C52E-AAF1-57549157C80B" name="BodyInModel_PK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>AD800D2C-5273-C350-4440-670DA5066847</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43194CBC-FD83-0774-5B29-BB4965B05D64"/>
+<colUsage columnID="C09794B4-5EC8-F009-B317-8A0CEA611624"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B368C5E7-B64C-0B29-078C-F154889B5B02" name="BodyInModel_CarModel_FK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>983CAC33-908F-D77F-9AF2-2535D75F2F50</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C09794B4-5EC8-F009-B317-8A0CEA611624"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54C2E951-DCDA-47CA-597C-DA20798E7C7E" name="BodyInModel_CarBody_FK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>3C28A626-BC93-2DDF-F604-91752A462BD6</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43194CBC-FD83-0774-5B29-BB4965B05D64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

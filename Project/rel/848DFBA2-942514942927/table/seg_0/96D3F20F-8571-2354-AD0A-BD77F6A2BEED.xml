@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96D3F20F-8571-2354-AD0A-BD77F6A2BEED" name="GadgetsList">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>01360FFB-2924-3FE7-34D5-0823B5508988</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ListRecord" id="9C334B1A-B432-6B8F-1B4F-A6162C492440">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>B448DA09-842D-A453-4BC0-1B0C02F28E54</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gadgets_GadgetID" id="A3E1A46E-566F-CED6-ADDE-FAE8CE505EC1">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>7964D669-F60A-A761-DB1F-E92E11002C17</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="894D940C-CC71-0077-5914-85D341B2439E" referredColumn="F3176FE4-CE3A-D71B-0270-145D7DD3ECE9"/>
+</associations>
+</Column>
+<Column name="Car_CarID" id="0F8B7676-AA92-642F-F518-CA7CA45C4EAA">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>02F60B15-AED8-32A7-19EE-EECE95281681</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D45FF6E-864B-5693-F11D-7F1FE8822528" referredColumn="D95511FD-7BDE-92C3-0057-158BF317665E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="490D863D-6202-6A34-3A15-7C7941FFF1EC" name="GadgetsList_PK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>1D234E36-C226-4D37-8CBA-B5C329FBE00E</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C334B1A-B432-6B8F-1B4F-A6162C492440"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBE6AF98-491A-13D9-639C-6D756EFCBD79" name="GadgetsList_Car_FK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>45DBFE96-AC36-3425-7F13-4931CAD380A1</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F8B7676-AA92-642F-F518-CA7CA45C4EAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="869B7970-5DA1-2C2F-A560-A4D74CCFE33D" name="GadgetsList_Gadgets_FK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>93F3DE03-29B0-333D-152D-4EC64D677E3E</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3E1A46E-566F-CED6-ADDE-FAE8CE505EC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
