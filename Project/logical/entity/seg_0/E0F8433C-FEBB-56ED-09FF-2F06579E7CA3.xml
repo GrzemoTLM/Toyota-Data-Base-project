@@ -4,7 +4,7 @@
 <createdTime>2023-10-25 20:27:42 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,20 +20,20 @@
 <createdTime>2023-11-06 04:49:41 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="RegionName" id="2686A289-CAAF-9A28-4898-B03BDB811DA7">
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 04:49:58 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -48,7 +48,7 @@
 <createdTime>2023-11-06 04:49:55 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -60,7 +60,7 @@
 <createdTime>2023-11-06 04:50:48 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <newElementsIDs>2686A289-CAAF-9A28-4898-B03BDB811DA7</newElementsIDs>
 <usedAttributes>

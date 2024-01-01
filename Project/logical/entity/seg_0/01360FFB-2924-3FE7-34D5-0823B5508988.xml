@@ -4,7 +4,7 @@
 <createdTime>2023-11-06 00:51:02 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,13 +20,13 @@
 <createdTime>2023-11-06 04:57:40 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="GadgetID" id="7964D669-F60A-A761-DB1F-E92E11002C17">
 <createdBy>Grzegorz</createdBy>
@@ -34,14 +34,14 @@
 <generatorID>93F3DE03-29B0-333D-152D-4EC64D677E3E</generatorID>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <referedAttribute>D3EDFCF2-5A65-CC14-23BF-C872B3BE4332</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CarID" id="02F60B15-AED8-32A7-19EE-EECE95281681">
 <createdBy>Grzegorz</createdBy>
@@ -49,14 +49,14 @@
 <generatorID>45DBFE96-AC36-3425-7F13-4931CAD380A1</generatorID>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <referedAttribute>2165E488-1234-B19A-11B7-72E2000E1889</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -64,9 +64,8 @@
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 04:58:25 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="false"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

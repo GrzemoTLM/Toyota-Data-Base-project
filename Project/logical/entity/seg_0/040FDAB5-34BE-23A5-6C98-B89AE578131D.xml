@@ -4,7 +4,7 @@
 <createdTime>2023-12-23 15:53:46 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,14 +21,14 @@
 <generatorID>983CAC33-908F-D77F-9AF2-2535D75F2F50</generatorID>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <referedAttribute>9D21AAA8-0569-363B-8AF9-A478E9A1F105</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="BodyID" id="08DAB0D8-8FDE-A355-67E8-5EABC356087F">
 <createdBy>Grzegorz</createdBy>
@@ -36,14 +36,14 @@
 <generatorID>3C28A626-BC93-2DDF-F604-91752A462BD6</generatorID>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <referedAttribute>811A4F5E-093A-E8E2-5EBC-15D5D74E0BCB</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -51,9 +51,8 @@
 <createdBy>Grzegorz</createdBy>
 <createdTime>2023-12-23 16:16:43 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="false"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

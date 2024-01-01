@@ -4,7 +4,7 @@
 <createdTime>2023-11-06 15:09:42 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,13 +21,13 @@
 <generatorID>300E6570-84E5-9E94-892E-047EAD0B2EFE</generatorID>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <referedAttribute>9D21AAA8-0569-363B-8AF9-A478E9A1F105</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
+<dataTypePrecision>6</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PtypeID" id="49BD785F-07CC-708D-551D-4A9093789FE2">
@@ -36,13 +36,13 @@
 <generatorID>CFDEFFBF-40ED-3171-0B94-4245CD1B53DE</generatorID>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <referedAttribute>5CD1219A-F2AD-B372-6769-363D587D1D47</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
+<dataTypePrecision>6</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -52,7 +52,7 @@
 <createdTime>2023-12-23 12:48:35 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <newElementsIDs>CFDEFFBF-40ED-3171-0B94-4245CD1B53DE,300E6570-84E5-9E94-892E-047EAD0B2EFE</newElementsIDs>
 <usedAttributes>
@@ -65,7 +65,7 @@
 <createdTime>2023-12-23 12:49:12 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>BAD5D7A5-CAC4-B227-7057-FD10AA661BA2,49BD785F-07CC-708D-551D-4A9093789FE2</newElementsIDs>

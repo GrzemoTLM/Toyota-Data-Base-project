@@ -4,7 +4,7 @@
 <createdTime>2023-10-28 21:41:21 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,20 +20,20 @@
 <createdTime>2023-11-06 04:45:06 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DeliveryType" id="AA574EC9-375A-EA9F-54B1-A92245B281D8">
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 04:45:43 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,22 +47,20 @@
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 04:45:18 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="false"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>B7F436B5-A9EA-2416-3BFE-12CD1AA84689</attributeRef>
 </usedAttributes>
 </identifier>
-<identifier id="BE3BCC86-0163-219B-8665-91543316793F" name="Key_2">
+<identifier id="BE3BCC86-0163-219B-8665-91543316793F" name="UNIQUE">
 <createdBy>Grzegorz</createdBy>
 <createdTime>2023-12-23 16:36:04 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="false"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <newElementsIDs>AA574EC9-375A-EA9F-54B1-A92245B281D8</newElementsIDs>
 <usedAttributes>

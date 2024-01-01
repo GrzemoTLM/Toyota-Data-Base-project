@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B02BBCAA-FF42-0A0A-09CC-D63402DD7C2B" containerWithKeyObject="78C518D0-9EFA-DD2C-E30B-34A19E02B857" localFKIndex="2A8FE8C1-E6B0-5370-82B8-12048BC2630E" name="Car_GearboxType_FK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>D43EAD7C-58AC-D4BF-BA2D-5AF22CEA6B15</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<referredTableLongName>GearboxType</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C8EF4530-4B00-774D-D4B3-3294964082E4</referredTableID>
+<keyObject>E56F10F4-4C3E-15C1-8FA7-7A8AB637F4EA</keyObject>
+<referredKeyID>E56F10F4-4C3E-15C1-8FA7-7A8AB637F4EA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>GearBoxID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8707BA13-745C-5BE2-1350-FA759FEF5CEA" containerWithKeyObject="9B1D83A2-76C0-F25A-C23B-B7259860851F" localFKIndex="787B2A2B-C56C-AC99-146A-07E5C03DF5BA" name="Country_ToyotaRegion_FK">
+<createdBy>Grzegorz</createdBy>
+<createdTime>2023-12-31 10:25:56 UTC</createdTime>
+<generatorID>13153718-7C7E-5CEC-BF88-928F29887B2A</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<referredTableLongName>ToyotaRegion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>25FAA0FF-8DF5-7BCC-0853-9E57BDE5F479</referredTableID>
+<keyObject>B9981FB4-9095-0E46-ABD2-5CD00023DC42</keyObject>
+<referredKeyID>B9981FB4-9095-0E46-ABD2-5CD00023DC42</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ToyotaRegionID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

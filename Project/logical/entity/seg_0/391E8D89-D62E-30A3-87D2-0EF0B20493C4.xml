@@ -4,7 +4,7 @@
 <createdTime>2023-10-25 20:29:08 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,22 +20,21 @@
 <createdTime>2023-11-06 01:15:08 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Status" id="4F81FD90-B72A-879F-008F-0D33C00089E7">
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 01:15:54 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -48,21 +47,20 @@
 <createdBy>pawel</createdBy>
 <createdTime>2023-11-06 01:15:25 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="false"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>CB7DEE2D-D0B7-88F8-0419-4FDD9B66D625</attributeRef>
 </usedAttributes>
 </identifier>
-<identifier id="E44FD6F4-6A2E-DCEA-772C-0CEC61128A2C" name="Key_2">
+<identifier id="E44FD6F4-6A2E-DCEA-772C-0CEC61128A2C" name="UNIQUE">
 <createdBy>Grzegorz</createdBy>
 <createdTime>2023-12-27 14:22:52 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="7F3048C7-46CE-E396-FAF9-E76E5D6BECD3" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <newElementsIDs>4F81FD90-B72A-879F-008F-0D33C00089E7</newElementsIDs>
 <usedAttributes>

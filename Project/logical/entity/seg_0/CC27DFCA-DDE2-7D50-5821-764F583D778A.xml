@@ -4,7 +4,7 @@
 <createdTime>2023-10-28 17:09:45 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,13 +20,13 @@
 <createdTime>2023-11-06 05:11:33 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="InstID" id="B366DCB5-FFEE-721F-3DF5-1DCDD7CA6EF6">
 <createdBy>pawel</createdBy>
@@ -34,30 +34,15 @@
 <generatorID>8925D8C7-8934-13EE-8F77-F75AA0E3D862</generatorID>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>CE2D1454-8B24-ABEF-E785-801E43ED8718</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,20,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="PODID" id="FAD60B8C-1ECD-AFD3-8BAB-C7BC22445511">
-<createdBy>Grzegorz</createdBy>
-<createdTime>2023-12-23 11:29:33 UTC</createdTime>
-<generatorID>B85D6457-7322-DCDE-DC77-EFF470AE94BD</generatorID>
-<ownerDesignName>Project</ownerDesignName>
-<engineerTo>
-<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
-</engineerTo>
-<referedAttribute>25F3DADF-FA17-5659-0635-C8091EE98A28</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PtypeID" id="8980E706-3E7C-A204-7D4F-D31F6B06D765">
 <createdBy>Grzegorz</createdBy>
@@ -65,21 +50,21 @@
 <generatorID>33D34BEB-1912-06CE-85D7-004E2BE8C7BC</generatorID>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <referedAttribute>5CD1219A-F2AD-B372-6769-363D587D1D47</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DateOfProduction" id="64FC50FB-C0BC-2A04-4D1E-0344B0BA582B">
 <createdBy>Grzegorz</createdBy>
 <createdTime>2023-12-23 12:47:55 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -93,7 +78,7 @@
 <createdTime>2023-11-06 05:11:45 UTC</createdTime>
 <ownerDesignName>Project</ownerDesignName>
 <engineerTo>
-<item key="943E5018-8FAB-C92C-FB1E-913359168E9D" value="true"/>
+<item key="848DFBA2-DB73-C5A0-FC29-942514942927" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
